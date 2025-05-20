@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dell/ROBOCON25_simulation-master/install/myrobot_controller/include/**",
+        "/home/dell/ROBOCON25_simulation-master/install/ares_comm/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/dell/ROBOCON25_simulation-master/src/ares_comm/include/**",
+        "/home/dell/ROBOCON25_simulation-master/src/myrobot_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

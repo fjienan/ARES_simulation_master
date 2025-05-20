@@ -1,0 +1,37 @@
+[1.021s] Invoking command in '/home/fideow/ROBOCON25_simulation-master/src/visualizer': PYTHONPATH=/home/fideow/ROBOCON25_simulation-master/src/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/visualizer build --build-base /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build install --record /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/install.log --single-version-externally-managed install_data
+[1.331s] running egg_info
+[1.332s] creating ../build/visualizer/visualizer.egg-info
+[1.333s] writing ../build/visualizer/visualizer.egg-info/PKG-INFO
+[1.334s] writing dependency_links to ../build/visualizer/visualizer.egg-info/dependency_links.txt
+[1.335s] writing entry points to ../build/visualizer/visualizer.egg-info/entry_points.txt
+[1.335s] writing requirements to ../build/visualizer/visualizer.egg-info/requires.txt
+[1.336s] writing top-level names to ../build/visualizer/visualizer.egg-info/top_level.txt
+[1.340s] writing manifest file '../build/visualizer/visualizer.egg-info/SOURCES.txt'
+[1.340s] reading manifest file '../build/visualizer/visualizer.egg-info/SOURCES.txt'
+[1.341s] writing manifest file '../build/visualizer/visualizer.egg-info/SOURCES.txt'
+[1.341s] running build
+[1.341s] running build_py
+[1.341s] creating /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build
+[1.341s] creating /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build/lib
+[1.342s] creating /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build/lib/visualizer
+[1.342s] copying visualizer/__init__.py -> /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build/lib/visualizer
+[1.342s] copying visualizer/trajectory_visualizer.py -> /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build/lib/visualizer
+[1.343s] running install
+[1.344s] running install_lib
+[1.345s] creating /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages/visualizer
+[1.345s] copying /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build/lib/visualizer/__init__.py -> /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages/visualizer
+[1.345s] copying /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build/lib/visualizer/trajectory_visualizer.py -> /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages/visualizer
+[1.346s] byte-compiling /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages/visualizer/__init__.py to __init__.cpython-310.pyc
+[1.346s] byte-compiling /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages/visualizer/trajectory_visualizer.py to trajectory_visualizer.cpython-310.pyc
+[1.347s] running install_data
+[1.347s] creating /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/share/ament_index
+[1.348s] creating /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/share/ament_index/resource_index
+[1.348s] creating /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/share/ament_index/resource_index/packages
+[1.348s] copying resource/visualizer -> /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/share/ament_index/resource_index/packages
+[1.351s] copying package.xml -> /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/share/visualizer
+[1.351s] running install_egg_info
+[1.352s] Copying ../build/visualizer/visualizer.egg-info to /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages/visualizer-0.0.0-py3.10.egg-info
+[1.353s] running install_scripts
+[1.393s] Installing trajectory_visualizer script to /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/visualizer
+[1.393s] writing list of installed files to '/home/fideow/ROBOCON25_simulation-master/src/build/visualizer/install.log'
+[1.429s] Invoked command in '/home/fideow/ROBOCON25_simulation-master/src/visualizer' returned '0': PYTHONPATH=/home/fideow/ROBOCON25_simulation-master/src/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/visualizer build --build-base /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build install --record /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/install.log --single-version-externally-managed install_data

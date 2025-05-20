@@ -1,0 +1,11 @@
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/uninstall.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/test_serial_uninstall.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/test_serial.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/test_frame.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/test.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/edit_cache.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/rebuild_cache.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/list_install_components.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/install.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/install/local.dir
+/home/fideow/ROBOCON25_simulation-master/src/build/test_serial/CMakeFiles/install/strip.dir

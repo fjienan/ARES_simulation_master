@@ -1,0 +1,17 @@
+[1.512s] Invoking command in '/home/fideow/ROBOCON25_simulation-master/build/new_teleotwistkeyboard': PYTHONPATH=/home/fideow/ROBOCON25_simulation-master/build/new_teleotwistkeyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fideow/ROBOCON25_simulation-master/build/new_teleotwistkeyboard/build --no-deps symlink_data
+[1.885s] running develop
+[2.166s] running egg_info
+[2.167s] writing new_teleotwistkeyboard.egg-info/PKG-INFO
+[2.167s] writing dependency_links to new_teleotwistkeyboard.egg-info/dependency_links.txt
+[2.167s] writing entry points to new_teleotwistkeyboard.egg-info/entry_points.txt
+[2.167s] writing requirements to new_teleotwistkeyboard.egg-info/requires.txt
+[2.167s] writing top-level names to new_teleotwistkeyboard.egg-info/top_level.txt
+[2.170s] reading manifest file 'new_teleotwistkeyboard.egg-info/SOURCES.txt'
+[2.171s] writing manifest file 'new_teleotwistkeyboard.egg-info/SOURCES.txt'
+[2.173s] running build_ext
+[2.173s] Creating /home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard/lib/python3.10/site-packages/new-teleotwistkeyboard.egg-link (link to .)
+[2.174s] Installing ares_keyboard script to /home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard/lib/new_teleotwistkeyboard
+[2.175s] 
+[2.175s] Installed /home/fideow/ROBOCON25_simulation-master/build/new_teleotwistkeyboard
+[2.175s] running symlink_data
+[2.215s] Invoked command in '/home/fideow/ROBOCON25_simulation-master/build/new_teleotwistkeyboard' returned '0': PYTHONPATH=/home/fideow/ROBOCON25_simulation-master/build/new_teleotwistkeyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fideow/ROBOCON25_simulation-master/build/new_teleotwistkeyboard/build --no-deps symlink_data

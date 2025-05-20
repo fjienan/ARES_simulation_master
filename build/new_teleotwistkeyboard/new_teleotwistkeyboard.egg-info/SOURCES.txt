@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+new_teleotwistkeyboard/__init__.py
+new_teleotwistkeyboard/ares_keyboard.py
+new_teleotwistkeyboard.egg-info/PKG-INFO
+new_teleotwistkeyboard.egg-info/SOURCES.txt
+new_teleotwistkeyboard.egg-info/dependency_links.txt
+new_teleotwistkeyboard.egg-info/entry_points.txt
+new_teleotwistkeyboard.egg-info/requires.txt
+new_teleotwistkeyboard.egg-info/top_level.txt
+new_teleotwistkeyboard.egg-info/zip-safe
+resource/new_teleotwistkeyboard

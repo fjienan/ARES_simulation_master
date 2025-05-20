@@ -1,0 +1,8 @@
+{
+  "package_name": "ares_comm",
+  "non_idl_tuples": [
+    "/home/fideow/ROBOCON25_simulation-master/src/ares_comm:msg/Data.msg",
+    "/home/fideow/ROBOCON25_simulation-master/src/ares_comm:msg/Error.msg",
+    "/home/fideow/ROBOCON25_simulation-master/src/ares_comm:srv/Execute.srv"
+  ]
+}

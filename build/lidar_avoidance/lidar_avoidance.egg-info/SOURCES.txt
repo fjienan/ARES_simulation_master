@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/avoidance.launch.py
+lidar_avoidance/__init__.py
+lidar_avoidance/avoidance.py
+lidar_avoidance.egg-info/PKG-INFO
+lidar_avoidance.egg-info/SOURCES.txt
+lidar_avoidance.egg-info/dependency_links.txt
+lidar_avoidance.egg-info/entry_points.txt
+lidar_avoidance.egg-info/requires.txt
+lidar_avoidance.egg-info/top_level.txt
+lidar_avoidance.egg-info/zip-safe
+resource/lidar_avoidance

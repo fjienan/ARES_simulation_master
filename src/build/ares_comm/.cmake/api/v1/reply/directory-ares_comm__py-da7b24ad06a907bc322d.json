@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ares_comm__py",
+		"source" : "/home/fideow/ROBOCON25_simulation-master/src/build/ares_comm/ares_comm__py"
+	}
+}

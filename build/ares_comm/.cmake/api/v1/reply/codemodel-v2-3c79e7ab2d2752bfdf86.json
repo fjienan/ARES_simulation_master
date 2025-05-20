@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f1f96374d58e09d4694d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "ares_comm__py",
+					"jsonFile" : "directory-ares_comm__py-a310e943473d6625d09f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/ares_comm__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ares_comm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ares_comm_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ares_comm_egg-da63fb06e9f540efd3ec.json",
+					"name" : "ament_cmake_python_build_ares_comm_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ares_comm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ares_comm-a119ca8196c71aad5444.json",
+					"name" : "ament_cmake_python_symlink_ares_comm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm-6fcab6c91d195d836bb9.json",
+					"name" : "ares_comm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__cpp-6aabcfacde004970b12f.json",
+					"name" : "ares_comm__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ares_comm__py::@bfb79ccbd1c8c52991a2",
+					"jsonFile" : "target-ares_comm__py-0a8fe1eb2c2c548b713d.json",
+					"name" : "ares_comm__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_generator_c-cb2af5da19360f19b354.json",
+					"name" : "ares_comm__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_generator_py-6da3e6c8c674b860819c.json",
+					"name" : "ares_comm__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_c-ba90f384caa4e515de06.json",
+					"name" : "ares_comm__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_c__pyext-702d5075ad0fb022dae5.json",
+					"name" : "ares_comm__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_cpp-7fc8c340b8b449d133d0.json",
+					"name" : "ares_comm__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_fastrtps_c-7b59ad631cc793d575f6.json",
+					"name" : "ares_comm__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_fastrtps_c__pyext-18af5fcaa10762d8f849.json",
+					"name" : "ares_comm__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_fastrtps_cpp-377a9cb54974f93b2620.json",
+					"name" : "ares_comm__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_introspection_c-ee14014dc323f6d0252e.json",
+					"name" : "ares_comm__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_introspection_c__pyext-8ccbddb4cfb55db747b3.json",
+					"name" : "ares_comm__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_introspection_cpp-c4542e62587f2c2a8f92.json",
+					"name" : "ares_comm__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm_lib-957ce69d32015698d80a.json",
+					"name" : "ares_comm_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm_node-243fd41018c3bc6ae8b7.json",
+					"name" : "ares_comm_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm_uninstall-76b165901d5e4b1da533.json",
+					"name" : "ares_comm_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_sensor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_sensor_node-ce6eafbf6d0980d87178.json",
+					"name" : "imu_sensor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e822403bbca24630f905.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fideow/ROBOCON25_simulation-master/build/ares_comm",
+		"source" : "/home/fideow/ROBOCON25_simulation-master/src/ares_comm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

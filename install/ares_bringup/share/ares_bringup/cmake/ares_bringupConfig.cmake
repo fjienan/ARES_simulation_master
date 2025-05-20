@@ -1,0 +1,1 @@
+/home/fideow/ROBOCON25_simulation-master/build/ares_bringup/ament_cmake_core/ares_bringupConfig.cmake

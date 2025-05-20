@@ -1,0 +1,1 @@
+/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/local_setup.sh

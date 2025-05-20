@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/lidar_avoidance/lidar_avoidance.egg-info
+writing ../build/lidar_avoidance/lidar_avoidance.egg-info/PKG-INFO
+writing dependency_links to ../build/lidar_avoidance/lidar_avoidance.egg-info/dependency_links.txt
+writing entry points to ../build/lidar_avoidance/lidar_avoidance.egg-info/entry_points.txt
+writing requirements to ../build/lidar_avoidance/lidar_avoidance.egg-info/requires.txt
+writing top-level names to ../build/lidar_avoidance/lidar_avoidance.egg-info/top_level.txt
+writing manifest file '../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'
+reading manifest file '../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'
+writing manifest file '../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fideow/ROBOCON25_simulation-master/src/build/lidar_avoidance/build
+creating /home/fideow/ROBOCON25_simulation-master/src/build/lidar_avoidance/build/lib
+creating /home/fideow/ROBOCON25_simulation-master/src/build/lidar_avoidance/build/lib/lidar_avoidance
+copying lidar_avoidance/avoidance.py -> /home/fideow/ROBOCON25_simulation-master/src/build/lidar_avoidance/build/lib/lidar_avoidance
+copying lidar_avoidance/__init__.py -> /home/fideow/ROBOCON25_simulation-master/src/build/lidar_avoidance/build/lib/lidar_avoidance
+running install
+running install_lib
+creating /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/lib/python3.10/site-packages/lidar_avoidance
+copying /home/fideow/ROBOCON25_simulation-master/src/build/lidar_avoidance/build/lib/lidar_avoidance/avoidance.py -> /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/lib/python3.10/site-packages/lidar_avoidance
+copying /home/fideow/ROBOCON25_simulation-master/src/build/lidar_avoidance/build/lib/lidar_avoidance/__init__.py -> /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/lib/python3.10/site-packages/lidar_avoidance
+byte-compiling /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/lib/python3.10/site-packages/lidar_avoidance/avoidance.py to avoidance.cpython-310.pyc
+byte-compiling /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/lib/python3.10/site-packages/lidar_avoidance/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/share/ament_index
+creating /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/share/ament_index/resource_index
+creating /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/share/ament_index/resource_index/packages
+copying resource/lidar_avoidance -> /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/share/ament_index/resource_index/packages
+copying package.xml -> /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/share/lidar_avoidance
+creating /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/share/lidar_avoidance/launch
+copying launch/avoidance.launch.py -> /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/share/lidar_avoidance/launch
+running install_egg_info
+Copying ../build/lidar_avoidance/lidar_avoidance.egg-info to /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/lib/python3.10/site-packages/lidar_avoidance-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_avoidance script to /home/fideow/ROBOCON25_simulation-master/src/install/lidar_avoidance/lib/lidar_avoidance
+writing list of installed files to '/home/fideow/ROBOCON25_simulation-master/src/build/lidar_avoidance/install.log'

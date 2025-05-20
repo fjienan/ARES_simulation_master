@@ -1,0 +1,4 @@
+source;share/ares_comm/environment/ament_prefix_path.sh
+source;share/ares_comm/environment/library_path.sh
+source;share/ares_comm/environment/path.sh
+source;share/ares_comm/environment/pythonpath.sh

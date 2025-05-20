@@ -1,0 +1,21 @@
+[1.450s] Invoking command in '/home/fideow/ROBOCON25_simulation-master/src/new_teleotwistkeyboard': PYTHONPATH=/home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/new_teleotwistkeyboard build --build-base /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/build install --record /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/install.log --single-version-externally-managed install_data
+[1.808s] running egg_info
+[1.809s] writing ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/PKG-INFO
+[1.811s] writing dependency_links to ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/dependency_links.txt
+[1.811s] writing entry points to ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/entry_points.txt
+[1.811s] writing requirements to ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/requires.txt
+[1.811s] writing top-level names to ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/top_level.txt
+[1.812s] reading manifest file '../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/SOURCES.txt'
+[1.814s] writing manifest file '../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/SOURCES.txt'
+[1.814s] running build
+[1.814s] running build_py
+[1.814s] running install
+[1.814s] running install_lib
+[1.815s] running install_data
+[1.815s] running install_egg_info
+[1.817s] removing '/home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages/new_teleotwistkeyboard-0.0.0-py3.10.egg-info' (and everything under it)
+[1.818s] Copying ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info to /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages/new_teleotwistkeyboard-0.0.0-py3.10.egg-info
+[1.819s] running install_scripts
+[1.840s] Installing ares_keyboard script to /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/new_teleotwistkeyboard
+[1.841s] writing list of installed files to '/home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/install.log'
+[1.868s] Invoked command in '/home/fideow/ROBOCON25_simulation-master/src/new_teleotwistkeyboard' returned '0': PYTHONPATH=/home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/new_teleotwistkeyboard build --build-base /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/build install --record /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/install.log --single-version-externally-managed install_data

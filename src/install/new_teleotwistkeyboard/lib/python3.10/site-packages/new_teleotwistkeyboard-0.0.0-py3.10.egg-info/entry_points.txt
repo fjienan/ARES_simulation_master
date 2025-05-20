@@ -1,0 +1,3 @@
+[console_scripts]
+ares_keyboard = new_teleotwistkeyboard.ares_keyboard:main
+

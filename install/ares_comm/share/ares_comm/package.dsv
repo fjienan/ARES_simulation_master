@@ -1,0 +1,11 @@
+source;share/ares_comm/hook/cmake_prefix_path.ps1
+source;share/ares_comm/hook/cmake_prefix_path.dsv
+source;share/ares_comm/hook/cmake_prefix_path.sh
+source;share/ares_comm/hook/ld_library_path_lib.ps1
+source;share/ares_comm/hook/ld_library_path_lib.dsv
+source;share/ares_comm/hook/ld_library_path_lib.sh
+source;share/ares_comm/local_setup.bash
+source;share/ares_comm/local_setup.dsv
+source;share/ares_comm/local_setup.ps1
+source;share/ares_comm/local_setup.sh
+source;share/ares_comm/local_setup.zsh

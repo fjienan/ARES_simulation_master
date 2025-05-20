@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ares_comm/msg/Error.msg
+// generated code does not contain a copyright notice
+
+
+module ares_comm {
+  module msg {
+    @verbatim (language="comment", text=
+      "对应协议中的错误帧(0xCADE开头)")
+    struct Error {
+      @verbatim (language="comment", text=
+        "1字节请求标识符 (可能是执行帧或数据帧的ID)")
+      uint8 request_id;
+
+      @verbatim (language="comment", text=
+        "2字节错误码 (使用位掩码组合)")
+      uint16 error_code;
+    };
+  };
+};

@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ares_comm/srv/Execute.srv
+// generated code does not contain a copyright notice
+
+
+module ares_comm {
+  module srv {
+    @verbatim (language="comment", text=
+      "服务请求结构（对应发送帧）")
+    struct Execute_Request {
+      @verbatim (language="comment", text=
+        "2字节功能码 (协议中的Func ID)")
+      uint16 func_id;
+
+      @verbatim (language="comment", text=
+        "4字节参数1")
+      uint32 arg1;
+
+      @verbatim (language="comment", text=
+        "4字节参数2")
+      uint32 arg2;
+
+      @verbatim (language="comment", text=
+        "4字节参数3")
+      uint32 arg3;
+
+      @verbatim (language="comment", text=
+        "1字节请求ID (用于匹配响应)")
+      uint8 request_id;
+    };
+    @verbatim (language="comment", text=
+      "服务响应结构（对应返回帧）")
+    struct Execute_Response {
+      @verbatim (language="comment", text=
+        "操作是否成功")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "4字节返回值 (协议中的Value字段)")
+      uint32 value;
+    };
+  };
+};

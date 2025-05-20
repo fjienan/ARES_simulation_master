@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/ares_comm_node" "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/imu_sensor_node" "TARGETS" "ares_comm_node" "imu_sensor_node" "DESTINATION" "lib/ares_comm")

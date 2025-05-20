@@ -1,0 +1,2 @@
+source;share/ares_bringup/environment/ament_prefix_path.sh
+source;share/ares_bringup/environment/path.sh

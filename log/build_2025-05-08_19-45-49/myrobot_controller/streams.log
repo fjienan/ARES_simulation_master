@@ -1,0 +1,110 @@
+[0.636s] Invoking command in '/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fideow/ROBOCON25_simulation-master/install/visualizer:/home/fideow/ROBOCON25_simulation-master/install/omni_mpc_controller:/home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard:/home/fideow/ROBOCON25_simulation-master/install/lidar_avoidance:/home/fideow/ROBOCON25_simulation-master/install/laser:/opt/ros/humble /usr/bin/cmake /home/fideow/ROBOCON25_simulation-master/src/myrobot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller
+[0.957s] -- The C compiler identification is GNU 11.4.0
+[0.957s] -- The CXX compiler identification is GNU 11.4.0
+[0.957s] -- Detecting C compiler ABI info
+[0.957s] -- Detecting C compiler ABI info - done
+[0.957s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.957s] -- Detecting C compile features
+[0.957s] -- Detecting C compile features - done
+[0.957s] -- Detecting CXX compiler ABI info
+[0.957s] -- Detecting CXX compiler ABI info - done
+[0.957s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.958s] -- Detecting CXX compile features
+[0.958s] -- Detecting CXX compile features - done
+[0.958s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.061s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.124s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.150s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.152s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.198s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.205s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.222s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.236s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.306s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.324s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.388s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.393s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.532s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.569s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.614s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.632s] -- Looking for pthread.h
+[1.765s] -- Looking for pthread.h - found
+[1.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.850s] -- Found Threads: TRUE  
+[2.066s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.248s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.248s] -- Configured cppcheck include dirs: /home/fideow/ROBOCON25_simulation-master/src/myrobot_controller/include
+[2.248s] -- Configured cppcheck exclude dirs and/or files: 
+[2.248s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.252s] -- Added test 'lint_cmake' to check CMake code style
+[2.258s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.261s] -- Added test 'uncrustify' to check C / C++ code style
+[2.262s] -- Configured uncrustify additional arguments: 
+[2.264s] -- Added test 'xmllint' to check XML markup files
+[2.272s] -- Configuring done
+[2.295s] -- Generating done
+[2.308s] -- Build files have been written to: /home/fideow/ROBOCON25_simulation-master/build/myrobot_controller
+[2.328s] Invoked command in '/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fideow/ROBOCON25_simulation-master/install/visualizer:/home/fideow/ROBOCON25_simulation-master/install/omni_mpc_controller:/home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard:/home/fideow/ROBOCON25_simulation-master/install/lidar_avoidance:/home/fideow/ROBOCON25_simulation-master/install/laser:/opt/ros/humble /usr/bin/cmake /home/fideow/ROBOCON25_simulation-master/src/myrobot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller
+[2.331s] Invoking command in '/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fideow/ROBOCON25_simulation-master/install/visualizer:/home/fideow/ROBOCON25_simulation-master/install/omni_mpc_controller:/home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard:/home/fideow/ROBOCON25_simulation-master/install/lidar_avoidance:/home/fideow/ROBOCON25_simulation-master/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/fideow/ROBOCON25_simulation-master/build/myrobot_controller -- -j8 -l8
+[2.793s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[2.793s] [ 50%] Built target ament_cmake_python_symlink_myrobot_controller
+[3.003s] running egg_info
+[3.003s] creating myrobot_controller.egg-info
+[3.004s] writing myrobot_controller.egg-info/PKG-INFO
+[3.004s] writing dependency_links to myrobot_controller.egg-info/dependency_links.txt
+[3.004s] writing top-level names to myrobot_controller.egg-info/top_level.txt
+[3.005s] writing manifest file 'myrobot_controller.egg-info/SOURCES.txt'
+[3.009s] reading manifest file 'myrobot_controller.egg-info/SOURCES.txt'
+[3.012s] writing manifest file 'myrobot_controller.egg-info/SOURCES.txt'
+[3.070s] [ 50%] Built target ament_cmake_python_build_myrobot_controller_egg
+[13.457s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[13.829s] [100%] Built target simple_controller
+[13.838s] Invoked command in '/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fideow/ROBOCON25_simulation-master/install/visualizer:/home/fideow/ROBOCON25_simulation-master/install/omni_mpc_controller:/home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard:/home/fideow/ROBOCON25_simulation-master/install/lidar_avoidance:/home/fideow/ROBOCON25_simulation-master/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/fideow/ROBOCON25_simulation-master/build/myrobot_controller -- -j8 -l8
+[13.839s] Invoking command in '/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fideow/ROBOCON25_simulation-master/install/visualizer:/home/fideow/ROBOCON25_simulation-master/install/omni_mpc_controller:/home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard:/home/fideow/ROBOCON25_simulation-master/install/lidar_avoidance:/home/fideow/ROBOCON25_simulation-master/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/fideow/ROBOCON25_simulation-master/build/myrobot_controller
+[13.846s] -- Install configuration: ""
+[13.847s] -- Execute custom install script
+[13.847s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/environment/pythonpath.sh
+[13.855s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/environment/pythonpath.dsv
+[13.861s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[13.869s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.876s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.882s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[13.890s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/__init__.py
+[13.897s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/read_imu_yaw.py
+[13.905s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/read_laser copy.py
+[13.913s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/read_laser.py
+[13.921s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/simple_controller.py
+[13.928s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/test_cmd.py
+[13.935s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/include/include/myrobot_controller/simple_controller.hpp
+[13.943s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/lib/myrobot_controller/simple_controller
+[13.950s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/config/joy_config.yaml
+[13.957s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/config/joy_teleop.yaml
+[13.965s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/config/myrobot_controllers.yaml
+[13.972s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/launch/controller.launch.py
+[13.979s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/launch/joystick_teleop.launch.py
+[13.987s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/lib/myrobot_controller/simple_controller.py
+[13.994s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/ament_index/resource_index/package_run_dependencies/myrobot_controller
+[14.002s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/ament_index/resource_index/parent_prefix_path/myrobot_controller
+[14.009s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/environment/ament_prefix_path.sh
+[14.016s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/environment/ament_prefix_path.dsv
+[14.023s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/environment/path.sh
+[14.031s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/environment/path.dsv
+[14.038s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/local_setup.bash
+[14.045s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/local_setup.sh
+[14.051s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/local_setup.zsh
+[14.059s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/local_setup.dsv
+[14.066s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/package.dsv
+[14.073s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/ament_index/resource_index/packages/myrobot_controller
+[14.080s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/cmake/myrobot_controllerConfig.cmake
+[14.087s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/cmake/myrobot_controllerConfig-version.cmake
+[14.094s] -- Symlinking: /home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/share/myrobot_controller/package.xml
+[14.138s] Listing '/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller'...
+[14.138s] Compiling '/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/__init__.py'...
+[14.138s] Compiling '/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/read_imu_yaw.py'...
+[14.138s] Compiling '/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/read_laser copy.py'...
+[14.138s] Compiling '/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/read_laser.py'...
+[14.138s] Compiling '/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/simple_controller.py'...
+[14.138s] Compiling '/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/test_cmd.py'...
+[14.144s] Invoked command in '/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fideow/ROBOCON25_simulation-master/install/visualizer:/home/fideow/ROBOCON25_simulation-master/install/omni_mpc_controller:/home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard:/home/fideow/ROBOCON25_simulation-master/install/lidar_avoidance:/home/fideow/ROBOCON25_simulation-master/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/fideow/ROBOCON25_simulation-master/build/myrobot_controller

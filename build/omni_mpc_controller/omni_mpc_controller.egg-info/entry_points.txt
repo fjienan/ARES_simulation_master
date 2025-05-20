@@ -1,0 +1,3 @@
+[console_scripts]
+omni_mpc_controller_node = omni_mpc_controller.omni_mpc_controller_node:main
+

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ares_comm/msg/Data.msg
+// generated code does not contain a copyright notice
+
+
+module ares_comm {
+  module msg {
+    @verbatim (language="comment", text=
+      "对应协议中的同步数据帧(0x5A5A开头)")
+    struct Data {
+      @verbatim (language="comment", text=
+        "2字节数据标识符 (对应协议中的Data ID)")
+      uint16 data_id;
+
+      @verbatim (language="comment", text=
+        "可变长度数据载荷 (最长22字节)")
+      sequence<uint8> data;
+    };
+  };
+};

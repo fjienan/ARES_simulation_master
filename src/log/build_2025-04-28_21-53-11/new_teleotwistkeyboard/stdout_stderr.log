@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info
+writing ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/PKG-INFO
+writing dependency_links to ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/dependency_links.txt
+writing entry points to ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/entry_points.txt
+writing requirements to ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/requires.txt
+writing top-level names to ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/top_level.txt
+writing manifest file '../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/SOURCES.txt'
+reading manifest file '../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/SOURCES.txt'
+writing manifest file '../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/build
+creating /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/build/lib
+creating /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/build/lib/new_teleotwistkeyboard
+copying new_teleotwistkeyboard/__init__.py -> /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/build/lib/new_teleotwistkeyboard
+copying new_teleotwistkeyboard/ares_keyboard.py -> /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/build/lib/new_teleotwistkeyboard
+running install
+running install_lib
+creating /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages/new_teleotwistkeyboard
+copying /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/build/lib/new_teleotwistkeyboard/__init__.py -> /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages/new_teleotwistkeyboard
+copying /home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/build/lib/new_teleotwistkeyboard/ares_keyboard.py -> /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages/new_teleotwistkeyboard
+byte-compiling /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages/new_teleotwistkeyboard/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages/new_teleotwistkeyboard/ares_keyboard.py to ares_keyboard.cpython-310.pyc
+running install_data
+creating /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/share/ament_index
+creating /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/share/ament_index/resource_index
+creating /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/share/ament_index/resource_index/packages
+copying resource/new_teleotwistkeyboard -> /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/share/ament_index/resource_index/packages
+copying package.xml -> /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard
+running install_egg_info
+Copying ../build/new_teleotwistkeyboard/new_teleotwistkeyboard.egg-info to /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/python3.10/site-packages/new_teleotwistkeyboard-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ares_keyboard script to /home/fideow/ROBOCON25_simulation-master/src/install/new_teleotwistkeyboard/lib/new_teleotwistkeyboard
+writing list of installed files to '/home/fideow/ROBOCON25_simulation-master/src/build/new_teleotwistkeyboard/install.log'

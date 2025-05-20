@@ -1,0 +1,21 @@
+[0.941s] Invoking command in '/home/fideow/ROBOCON25_simulation-master/src/visualizer': PYTHONPATH=/home/fideow/ROBOCON25_simulation-master/src/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/visualizer build --build-base /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build install --record /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/install.log --single-version-externally-managed install_data
+[1.164s] running egg_info
+[1.164s] writing ../build/visualizer/visualizer.egg-info/PKG-INFO
+[1.164s] writing dependency_links to ../build/visualizer/visualizer.egg-info/dependency_links.txt
+[1.164s] writing entry points to ../build/visualizer/visualizer.egg-info/entry_points.txt
+[1.164s] writing requirements to ../build/visualizer/visualizer.egg-info/requires.txt
+[1.164s] writing top-level names to ../build/visualizer/visualizer.egg-info/top_level.txt
+[1.166s] reading manifest file '../build/visualizer/visualizer.egg-info/SOURCES.txt'
+[1.167s] writing manifest file '../build/visualizer/visualizer.egg-info/SOURCES.txt'
+[1.167s] running build
+[1.167s] running build_py
+[1.167s] running install
+[1.167s] running install_lib
+[1.169s] running install_data
+[1.169s] running install_egg_info
+[1.171s] removing '/home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages/visualizer-0.0.0-py3.10.egg-info' (and everything under it)
+[1.172s] Copying ../build/visualizer/visualizer.egg-info to /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages/visualizer-0.0.0-py3.10.egg-info
+[1.172s] running install_scripts
+[1.197s] Installing trajectory_visualizer script to /home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/visualizer
+[1.197s] writing list of installed files to '/home/fideow/ROBOCON25_simulation-master/src/build/visualizer/install.log'
+[1.223s] Invoked command in '/home/fideow/ROBOCON25_simulation-master/src/visualizer' returned '0': PYTHONPATH=/home/fideow/ROBOCON25_simulation-master/src/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fideow/ROBOCON25_simulation-master/src/install/visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/visualizer build --build-base /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/build install --record /home/fideow/ROBOCON25_simulation-master/src/build/visualizer/install.log --single-version-externally-managed install_data

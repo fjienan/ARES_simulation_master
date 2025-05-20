@@ -1,0 +1,1 @@
+/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_generator_c/ares_comm/msg/detail/data__struct.h

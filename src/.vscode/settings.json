@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/dell/ROBOCON25_simulation-master/build/visualizer",
+        "/home/dell/ROBOCON25_simulation-master/install/visualizer/lib/python3.10/site-packages",
+        "/home/dell/ROBOCON25_simulation-master/build/new_teleotwistkeyboard",
+        "/home/dell/ROBOCON25_simulation-master/install/new_teleotwistkeyboard/lib/python3.10/site-packages",
+        "/home/dell/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages",
+        "/home/dell/ROBOCON25_simulation-master/build/lidar_avoidance",
+        "/home/dell/ROBOCON25_simulation-master/install/lidar_avoidance/lib/python3.10/site-packages",
+        "/home/dell/ROBOCON25_simulation-master/build/laser",
+        "/home/dell/ROBOCON25_simulation-master/install/laser/lib/python3.10/site-packages",
+        "/home/dell/ROBOCON25_simulation-master/install/ares_comm/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dell/ROBOCON25_simulation-master/build/visualizer",
+        "/home/dell/ROBOCON25_simulation-master/install/visualizer/lib/python3.10/site-packages",
+        "/home/dell/ROBOCON25_simulation-master/build/new_teleotwistkeyboard",
+        "/home/dell/ROBOCON25_simulation-master/install/new_teleotwistkeyboard/lib/python3.10/site-packages",
+        "/home/dell/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages",
+        "/home/dell/ROBOCON25_simulation-master/build/lidar_avoidance",
+        "/home/dell/ROBOCON25_simulation-master/install/lidar_avoidance/lib/python3.10/site-packages",
+        "/home/dell/ROBOCON25_simulation-master/build/laser",
+        "/home/dell/ROBOCON25_simulation-master/install/laser/lib/python3.10/site-packages",
+        "/home/dell/ROBOCON25_simulation-master/install/ares_comm/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

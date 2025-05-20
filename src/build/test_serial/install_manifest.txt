@@ -1,0 +1,17 @@
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/lib/test_serial/test_serial
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/lib/test_serial/test_frame
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/ament_index/resource_index/package_run_dependencies/test_serial
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/ament_index/resource_index/parent_prefix_path/test_serial
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/environment/ament_prefix_path.sh
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/environment/ament_prefix_path.dsv
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/environment/path.sh
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/environment/path.dsv
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/local_setup.bash
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/local_setup.sh
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/local_setup.zsh
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/local_setup.dsv
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/package.dsv
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/ament_index/resource_index/packages/test_serial
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/cmake/test_serialConfig.cmake
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/cmake/test_serialConfig-version.cmake
+/home/fideow/ROBOCON25_simulation-master/src/install/test_serial/share/test_serial/package.xml

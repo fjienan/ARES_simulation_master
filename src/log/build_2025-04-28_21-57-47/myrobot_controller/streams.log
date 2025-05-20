@@ -1,0 +1,56 @@
+[0.472s] Invoking command in '/home/fideow/ROBOCON25_simulation-master/src/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fideow/ROBOCON25_simulation-master/src/build/myrobot_controller -- -j8 -l8
+[0.939s] [100%] Built target simple_controller
+[0.939s] [100%] Built target ament_cmake_python_copy_myrobot_controller
+[0.939s] running egg_info
+[0.939s] writing myrobot_controller.egg-info/PKG-INFO
+[0.939s] writing dependency_links to myrobot_controller.egg-info/dependency_links.txt
+[0.939s] writing top-level names to myrobot_controller.egg-info/top_level.txt
+[0.939s] reading manifest file 'myrobot_controller.egg-info/SOURCES.txt'
+[0.939s] writing manifest file 'myrobot_controller.egg-info/SOURCES.txt'
+[0.939s] [100%] Built target ament_cmake_python_build_myrobot_controller_egg
+[0.954s] Invoked command in '/home/fideow/ROBOCON25_simulation-master/src/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fideow/ROBOCON25_simulation-master/src/build/myrobot_controller -- -j8 -l8
+[0.956s] Invoking command in '/home/fideow/ROBOCON25_simulation-master/src/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fideow/ROBOCON25_simulation-master/src/build/myrobot_controller
+[0.997s] -- Install configuration: ""
+[0.997s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/environment/pythonpath.sh
+[0.997s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/environment/pythonpath.dsv
+[0.998s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info
+[0.998s] -- Installing: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.998s] -- Installing: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.998s] -- Installing: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.998s] -- Installing: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.002s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller
+[1.002s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/read_laser copy.py
+[1.002s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/test_cmd.py
+[1.002s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/read_laser.py
+[1.002s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/__init__.py
+[1.002s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/simple_controller.py
+[1.003s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/read_imu_yaw.py
+[1.018s] Listing '/home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller'...
+[1.018s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/include/include
+[1.018s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/include/include/myrobot_controller
+[1.018s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/include/include/myrobot_controller/simple_controller.hpp
+[1.018s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/lib/myrobot_controller/simple_controller
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/config
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/config/joy_teleop.yaml
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/config/myrobot_controllers.yaml
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/config/joy_config.yaml
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/launch
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/launch/controller.launch.py
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/launch/joystick_teleop.launch.py
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/lib/myrobot_controller/simple_controller.py
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/ament_index/resource_index/package_run_dependencies/myrobot_controller
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/ament_index/resource_index/parent_prefix_path/myrobot_controller
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/environment/ament_prefix_path.sh
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/environment/ament_prefix_path.dsv
+[1.019s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/environment/path.sh
+[1.020s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/environment/path.dsv
+[1.020s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/local_setup.bash
+[1.020s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/local_setup.sh
+[1.020s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/local_setup.zsh
+[1.020s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/local_setup.dsv
+[1.020s] -- Installing: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/package.dsv
+[1.020s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/ament_index/resource_index/packages/myrobot_controller
+[1.020s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/cmake/myrobot_controllerConfig.cmake
+[1.020s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/cmake/myrobot_controllerConfig-version.cmake
+[1.020s] -- Up-to-date: /home/fideow/ROBOCON25_simulation-master/src/install/myrobot_controller/share/myrobot_controller/package.xml
+[1.066s] Invoked command in '/home/fideow/ROBOCON25_simulation-master/src/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fideow/ROBOCON25_simulation-master/src/build/myrobot_controller
