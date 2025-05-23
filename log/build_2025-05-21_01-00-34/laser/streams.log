@@ -1,0 +1,25 @@
+[1.017s] Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/laser': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/laser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/laser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/laser/build --no-deps symlink_data
+[1.169s] running develop
+[1.247s] running egg_info
+[1.247s] creating laser.egg-info
+[1.247s] writing laser.egg-info/PKG-INFO
+[1.247s] writing dependency_links to laser.egg-info/dependency_links.txt
+[1.247s] writing entry points to laser.egg-info/entry_points.txt
+[1.247s] writing requirements to laser.egg-info/requires.txt
+[1.247s] writing top-level names to laser.egg-info/top_level.txt
+[1.248s] writing manifest file 'laser.egg-info/SOURCES.txt'
+[1.249s] reading manifest file 'laser.egg-info/SOURCES.txt'
+[1.249s] writing manifest file 'laser.egg-info/SOURCES.txt'
+[1.288s] running build_ext
+[1.288s] Creating /home/furry/Desktop/ARES_simulation_master/install/laser/lib/python3.10/site-packages/laser.egg-link (link to .)
+[1.289s] Installing laser script to /home/furry/Desktop/ARES_simulation_master/install/laser/lib/laser
+[1.289s] Installing laser_position script to /home/furry/Desktop/ARES_simulation_master/install/laser/lib/laser
+[1.289s] 
+[1.289s] Installed /home/furry/Desktop/ARES_simulation_master/build/laser
+[1.290s] running symlink_data
+[1.290s] creating /home/furry/Desktop/ARES_simulation_master/install/laser/share/ament_index
+[1.290s] creating /home/furry/Desktop/ARES_simulation_master/install/laser/share/ament_index/resource_index
+[1.290s] creating /home/furry/Desktop/ARES_simulation_master/install/laser/share/ament_index/resource_index/packages
+[1.290s] symbolically linking /home/furry/Desktop/ARES_simulation_master/build/laser/resource/laser -> /home/furry/Desktop/ARES_simulation_master/install/laser/share/ament_index/resource_index/packages
+[1.290s] symbolically linking /home/furry/Desktop/ARES_simulation_master/build/laser/package.xml -> /home/furry/Desktop/ARES_simulation_master/install/laser/share/laser
+[1.349s] Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/laser' returned '0': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/laser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/laser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/laser/build --no-deps symlink_data

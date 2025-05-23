@@ -1,0 +1,26 @@
+[0.998s] Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/build --no-deps symlink_data
+[1.152s] running develop
+[1.231s] running egg_info
+[1.231s] creating lidar_avoidance.egg-info
+[1.231s] writing lidar_avoidance.egg-info/PKG-INFO
+[1.231s] writing dependency_links to lidar_avoidance.egg-info/dependency_links.txt
+[1.231s] writing entry points to lidar_avoidance.egg-info/entry_points.txt
+[1.231s] writing requirements to lidar_avoidance.egg-info/requires.txt
+[1.231s] writing top-level names to lidar_avoidance.egg-info/top_level.txt
+[1.231s] writing manifest file 'lidar_avoidance.egg-info/SOURCES.txt'
+[1.232s] reading manifest file 'lidar_avoidance.egg-info/SOURCES.txt'
+[1.232s] writing manifest file 'lidar_avoidance.egg-info/SOURCES.txt'
+[1.273s] running build_ext
+[1.273s] Creating /home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/lib/python3.10/site-packages/lidar-avoidance.egg-link (link to .)
+[1.273s] Installing lidar_avoidance script to /home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/lib/lidar_avoidance
+[1.274s] 
+[1.274s] Installed /home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance
+[1.274s] running symlink_data
+[1.274s] creating /home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/ament_index
+[1.274s] creating /home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/ament_index/resource_index
+[1.274s] creating /home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/ament_index/resource_index/packages
+[1.274s] symbolically linking /home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/resource/lidar_avoidance -> /home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/ament_index/resource_index/packages
+[1.274s] symbolically linking /home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/package.xml -> /home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance
+[1.274s] creating /home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/launch
+[1.274s] symbolically linking /home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/launch/avoidance.launch.py -> /home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/launch
+[1.314s] Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance' returned '0': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/build --no-deps symlink_data

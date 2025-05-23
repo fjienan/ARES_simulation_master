@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/fideow/ROBOCON25_simulation-master/install/test_serial/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/furry/Desktop/ARES_simulation_master/install/test_serial/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/fideow/ROBOCON25_simulation-master/install/test_serial/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/furry/Desktop/ARES_simulation_master/install/test_serial/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/fideow/ROBOCON25_simulation-master/install/test_serial/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/furry/Desktop/ARES_simulation_master/install/test_serial/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/fideow/ROBOCON25_simulation-master/install/test_serial/${destination}")
+      set(destination "/home/furry/Desktop/ARES_simulation_master/install/test_serial/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,49 +311,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "test_serial" "DESTINATION" "lib/test_serial")
-include("/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "test_frame" "DESTINATION" "lib/test_serial")
-include("/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_serial" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_serial" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_serial" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_serial" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_serial" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_serial" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_serial" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_serial" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/test_serial/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/test_serial/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/test_serial/environment")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/test_serial/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/test_serial/environment")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/test_serial/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/test_serial/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/test_serial/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/test_serial/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/test_serial/environment")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/test_serial/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/test_serial/environment")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/test_serial/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/test_serial/environment")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/test_serial")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/test_serial")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/test_serial")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/test_serial")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/test_serial")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/test_serial")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/test_serial")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/test_serial")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/test_serial")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/test_serial")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/test_serial")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/test_serial")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/test_serial")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/test_serial")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/test_serial")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/test_serial")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/test_serial")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/test_serial")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/test_serial")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/test_serial")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/packages/test_serial" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/packages/test_serial" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/packages/test_serial" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_index/share/ament_index/resource_index/packages/test_serial" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_core/test_serialConfig.cmake" "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_core/test_serialConfig-version.cmake" "DESTINATION" "share/test_serial/cmake")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_core/test_serialConfig.cmake" "/home/fideow/ROBOCON25_simulation-master/build/test_serial/ament_cmake_core/test_serialConfig-version.cmake" "DESTINATION" "share/test_serial/cmake")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_core/test_serialConfig.cmake" "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_core/test_serialConfig-version.cmake" "DESTINATION" "share/test_serial/cmake")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_core/test_serialConfig.cmake" "/home/furry/Desktop/ARES_simulation_master/build/test_serial/ament_cmake_core/test_serialConfig-version.cmake" "DESTINATION" "share/test_serial/cmake")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/src/test_serial/package.xml" "DESTINATION" "share/test_serial")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/test_serial" FILES "/home/fideow/ROBOCON25_simulation-master/src/test_serial/package.xml" "DESTINATION" "share/test_serial")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/src/test_serial/package.xml" "DESTINATION" "share/test_serial")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/test_serial" FILES "/home/furry/Desktop/ARES_simulation_master/src/test_serial/package.xml" "DESTINATION" "share/test_serial")

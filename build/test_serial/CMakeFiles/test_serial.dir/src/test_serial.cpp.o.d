@@ -1,7 +1,7 @@
 CMakeFiles/test_serial.dir/src/test_serial.cpp.o: \
- /home/fideow/ROBOCON25_simulation-master/src/test_serial/src/test_serial.cpp \
+ /home/furry/Desktop/ARES_simulation_master/src/test_serial/src/test_serial.cpp \
  /usr/include/stdc-predef.h \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/serial_interface.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/serial_interface.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -1,8 +1,8 @@
-# Install script for directory: /home/fideow/ROBOCON25_simulation-master/src/myrobot_controller
+# Install script for directory: /home/furry/Desktop/ARES_simulation_master/src/myrobot_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller"
+        "/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller"
       )
 endif()
 
@@ -62,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

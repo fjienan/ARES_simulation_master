@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"ares_comm\" -Dares_comm__rosidl_typesupport_c__pyext_EXPORTS
 
-C_INCLUDES = -I/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_generator_c -I/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_generator_py -I/usr/include/python3.10 -I/opt/ros/humble/include/rmw -I/home/fideow/ROBOCON25_simulation-master/src/ares_comm/include -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils
+C_INCLUDES = -I/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_generator_c -I/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_generator_py -I/usr/include/python3.10 -I/opt/ros/humble/include/rmw -I/home/furry/Desktop/ARES_simulation_master/src/ares_comm/include -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils
 
 C_FLAGS = -fPIC -Wall -Wextra
 

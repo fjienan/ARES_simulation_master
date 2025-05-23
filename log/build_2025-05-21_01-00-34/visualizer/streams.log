@@ -1,0 +1,24 @@
+[0.999s] Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/visualizer': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/visualizer/build --no-deps symlink_data
+[1.150s] running develop
+[1.236s] running egg_info
+[1.236s] creating visualizer.egg-info
+[1.237s] writing visualizer.egg-info/PKG-INFO
+[1.237s] writing dependency_links to visualizer.egg-info/dependency_links.txt
+[1.237s] writing entry points to visualizer.egg-info/entry_points.txt
+[1.237s] writing requirements to visualizer.egg-info/requires.txt
+[1.237s] writing top-level names to visualizer.egg-info/top_level.txt
+[1.237s] writing manifest file 'visualizer.egg-info/SOURCES.txt'
+[1.239s] reading manifest file 'visualizer.egg-info/SOURCES.txt'
+[1.239s] writing manifest file 'visualizer.egg-info/SOURCES.txt'
+[1.286s] running build_ext
+[1.286s] Creating /home/furry/Desktop/ARES_simulation_master/install/visualizer/lib/python3.10/site-packages/visualizer.egg-link (link to .)
+[1.287s] Installing trajectory_visualizer script to /home/furry/Desktop/ARES_simulation_master/install/visualizer/lib/visualizer
+[1.287s] 
+[1.287s] Installed /home/furry/Desktop/ARES_simulation_master/build/visualizer
+[1.287s] running symlink_data
+[1.287s] creating /home/furry/Desktop/ARES_simulation_master/install/visualizer/share/ament_index
+[1.287s] creating /home/furry/Desktop/ARES_simulation_master/install/visualizer/share/ament_index/resource_index
+[1.287s] creating /home/furry/Desktop/ARES_simulation_master/install/visualizer/share/ament_index/resource_index/packages
+[1.287s] symbolically linking /home/furry/Desktop/ARES_simulation_master/build/visualizer/resource/visualizer -> /home/furry/Desktop/ARES_simulation_master/install/visualizer/share/ament_index/resource_index/packages
+[1.288s] symbolically linking /home/furry/Desktop/ARES_simulation_master/build/visualizer/package.xml -> /home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer
+[1.345s] Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/visualizer' returned '0': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/visualizer/build --no-deps symlink_data

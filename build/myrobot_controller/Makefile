@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fideow/ROBOCON25_simulation-master/src/myrobot_controller
+CMAKE_SOURCE_DIR = /home/furry/Desktop/ARES_simulation_master/src/myrobot_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fideow/ROBOCON25_simulation-master/build/myrobot_controller
+CMAKE_BINARY_DIR = /home/furry/Desktop/ARES_simulation_master/build/myrobot_controller
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/CMakeFiles /home/fideow/ROBOCON25_simulation-master/build/myrobot_controller//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/CMakeFiles /home/furry/Desktop/ARES_simulation_master/build/myrobot_controller//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,0 +1,768 @@
+[0.051s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--allow-overriding', 'my_robot_description']
+[0.051s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=['my_robot_description'], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x702afb6640d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x702afb765a80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x702afb765a80>>)
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.127s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/furry/Desktop/ARES_simulation_master'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ares_bringup' with type 'ros.ament_cmake' and name 'ares_bringup'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_comm) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_comm) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_comm) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_comm) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_comm) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_comm) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_comm) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_comm) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ares_comm' with type 'ros.ament_cmake' and name 'ares_comm'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser' with type 'ros.ament_python' and name 'laser'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_avoidance' with type 'ros.ament_python' and name 'lidar_avoidance'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_controller) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_controller) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_controller) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_controller) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_controller) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_controller) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_controller) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_controller) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myrobot_controller' with type 'ros.ament_cmake' and name 'myrobot_controller'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_teleotwistkeyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_teleotwistkeyboard) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_teleotwistkeyboard) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_teleotwistkeyboard) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_teleotwistkeyboard) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_teleotwistkeyboard) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_teleotwistkeyboard) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_teleotwistkeyboard) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_teleotwistkeyboard) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/new_teleotwistkeyboard' with type 'ros.ament_python' and name 'new_teleotwistkeyboard'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_mpc_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_mpc_controller) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_mpc_controller) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_mpc_controller) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_mpc_controller) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_mpc_controller) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_mpc_controller) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_mpc_controller) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_mpc_controller) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_mpc_controller' with type 'ros.ament_python' and name 'omni_mpc_controller'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_bringup) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_bringup) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_bringup) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_bringup) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_bringup) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_bringup) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_bringup) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_bringup) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation_bringup' with type 'ros.ament_cmake' and name 'simulation_bringup'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_serial' with type 'ros.ament_cmake' and name 'test_serial'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualizer) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualizer' with type 'ros.ament_python' and name 'visualizer'
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.153s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/furry/Desktop/dog/install
+[0.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_target' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.177s] DEBUG:colcon.colcon_core.verb:Building package 'ares_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/ares_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/ares_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_comm' build argument 'cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_comm' build argument 'cmake_target' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_comm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_comm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_comm' build argument 'cmake_clean_first' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_comm' build argument 'cmake_force_configure' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_comm' build argument 'ament_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_comm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'ares_comm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.177s] DEBUG:colcon.colcon_core.verb:Building package 'ares_comm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/ares_comm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/ares_comm', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/ares_comm', 'symlink_install': True, 'test_result_base': None}
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'laser' build argument 'cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'laser' build argument 'cmake_target' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'laser' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'laser' build argument 'cmake_clean_cache' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'laser' build argument 'cmake_clean_first' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'laser' build argument 'cmake_force_configure' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'laser' build argument 'ament_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'laser' build argument 'catkin_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'laser' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.177s] DEBUG:colcon.colcon_core.verb:Building package 'laser' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/laser', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/laser', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/laser', 'symlink_install': True, 'test_result_base': None}
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_avoidance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/lidar_avoidance', 'symlink_install': True, 'test_result_base': None}
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/my_robot_description', 'symlink_install': True, 'test_result_base': None}
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'myrobot_controller' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'myrobot_controller' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'myrobot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'myrobot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'myrobot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'myrobot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'myrobot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'myrobot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'myrobot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'myrobot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller', 'symlink_install': True, 'test_result_base': None}
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'new_teleotwistkeyboard' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'new_teleotwistkeyboard' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'new_teleotwistkeyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'new_teleotwistkeyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'new_teleotwistkeyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'new_teleotwistkeyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'new_teleotwistkeyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'new_teleotwistkeyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'new_teleotwistkeyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'new_teleotwistkeyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/new_teleotwistkeyboard', 'symlink_install': True, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'omni_mpc_controller' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'omni_mpc_controller' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'omni_mpc_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'omni_mpc_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'omni_mpc_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'omni_mpc_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'omni_mpc_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'omni_mpc_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'omni_mpc_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'omni_mpc_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/omni_mpc_controller', 'symlink_install': True, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'visualizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'visualizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/visualizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/visualizer', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/visualizer', 'symlink_install': True, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'simulation_bringup' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'simulation_bringup' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'simulation_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'simulation_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'simulation_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'simulation_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'simulation_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'simulation_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'simulation_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'simulation_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/simulation_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/simulation_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'test_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/furry/Desktop/ARES_simulation_master/build/test_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/furry/Desktop/ARES_simulation_master/install/test_serial', 'merge_install': False, 'path': '/home/furry/Desktop/ARES_simulation_master/src/test_serial', 'symlink_install': True, 'test_result_base': None}
+[0.180s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/ares_comm' with build type 'ament_cmake'
+[0.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/furry/Desktop/ARES_simulation_master/src/ares_comm'
+[0.182s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/my_robot_description' with build type 'ament_cmake'
+[0.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/furry/Desktop/ARES_simulation_master/src/my_robot_description'
+[0.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/ares_bringup' with build type 'ament_cmake'
+[0.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/furry/Desktop/ARES_simulation_master/src/ares_bringup'
+[0.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.187s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/laser' with build type 'ament_python'
+[0.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser', 'ament_prefix_path')
+[0.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/hook/ament_prefix_path.ps1'
+[0.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/hook/ament_prefix_path.dsv'
+[0.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/hook/ament_prefix_path.sh'
+[0.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.190s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/lidar_avoidance' with build type 'ament_python'
+[0.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_avoidance', 'ament_prefix_path')
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/hook/ament_prefix_path.ps1'
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/hook/ament_prefix_path.dsv'
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/hook/ament_prefix_path.sh'
+[0.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.192s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller' with build type 'ament_cmake'
+[0.192s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller'
+[0.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/new_teleotwistkeyboard' with build type 'ament_python'
+[0.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_teleotwistkeyboard', 'ament_prefix_path')
+[0.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/hook/ament_prefix_path.ps1'
+[0.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/hook/ament_prefix_path.dsv'
+[0.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/hook/ament_prefix_path.sh'
+[0.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/omni_mpc_controller' with build type 'ament_python'
+[0.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_mpc_controller', 'ament_prefix_path')
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/hook/ament_prefix_path.ps1'
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/hook/ament_prefix_path.dsv'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/hook/ament_prefix_path.sh'
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.200s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/visualizer' with build type 'ament_python'
+[0.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualizer', 'ament_prefix_path')
+[0.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/hook/ament_prefix_path.ps1'
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/hook/ament_prefix_path.dsv'
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/hook/ament_prefix_path.sh'
+[0.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/ares_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/ares_comm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/ares_comm
+[0.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description
+[0.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/ares_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/ares_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/ares_bringup
+[0.346s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/furry/Desktop/ARES_simulation_master/src/laser'
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/furry/Desktop/ARES_simulation_master/src/lidar_avoidance'
+[0.483s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/myrobot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller
+[0.626s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/furry/Desktop/ARES_simulation_master/src/new_teleotwistkeyboard'
+[0.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.773s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/furry/Desktop/ARES_simulation_master/src/omni_mpc_controller'
+[0.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.774s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.918s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/furry/Desktop/ARES_simulation_master/src/visualizer'
+[0.918s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/my_robot_description -- -j24 -l24
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/ares_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/ares_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/ares_bringup
+[0.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/ares_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/ares_bringup -- -j24 -l24
+[0.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/my_robot_description -- -j24 -l24
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/my_robot_description
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/ares_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/ares_bringup -- -j24 -l24
+[0.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/ares_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/ares_bringup
+[1.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_bringup)
+[1.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/ares_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/ares_bringup
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup' for CMake module files
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup' for CMake config files
+[1.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_bringup', 'cmake_prefix_path')
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.ps1'
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.dsv'
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.sh'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/bin'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/lib/pkgconfig/ares_bringup.pc'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/lib/python3.10/site-packages'
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/bin'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.ps1'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.sh'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.bash'
+[1.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.zsh'
+[1.082s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/colcon-core/packages/ares_bringup)
+[1.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_bringup)
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup' for CMake module files
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup' for CMake config files
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_bringup', 'cmake_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/bin'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/lib/pkgconfig/ares_bringup.pc'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/lib/python3.10/site-packages'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/bin'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.sh'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.bash'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/ares_bringup/package.zsh'
+[1.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/ares_bringup/share/colcon-core/packages/ares_bringup)
+[1.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/build --no-deps symlink_data
+[1.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/visualizer': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/visualizer/build --no-deps symlink_data
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard/build --no-deps symlink_data
+[1.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/laser': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/laser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/laser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/laser/build --no-deps symlink_data
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/build --no-deps symlink_data
+[1.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/myrobot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller
+[1.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/myrobot_controller -- -j24 -l24
+[1.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_avoidance', 'pythonpath_develop')
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/share/lidar_avoidance/hook/pythonpath_develop.ps1'
+[1.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance' returned '0': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/build --no-deps symlink_data
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/share/lidar_avoidance/hook/pythonpath_develop.dsv'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/lidar_avoidance/share/lidar_avoidance/hook/pythonpath_develop.sh'
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance' for CMake module files
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance' for CMake config files
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/lib'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/lib/pkgconfig/lidar_avoidance.pc'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/lib/python3.10/site-packages'
+[1.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_avoidance', 'pythonpath')
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/hook/pythonpath.ps1'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/hook/pythonpath.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/hook/pythonpath.sh'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/bin'
+[1.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_avoidance)
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/package.ps1'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/package.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/package.sh'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/package.bash'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/lidar_avoidance/package.zsh'
+[1.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/lidar_avoidance/share/colcon-core/packages/lidar_avoidance)
+[1.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description' for CMake module files
+[1.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/my_robot_description
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description' for CMake config files
+[1.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.516s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/bin'
+[1.516s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.516s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/lib/python3.10/site-packages'
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/bin'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.sh'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.bash'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description' for CMake module files
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description' for CMake config files
+[1.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/bin'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/lib/python3.10/site-packages'
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/bin'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.sh'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.bash'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/simulation_bringup' with build type 'ament_cmake'
+[1.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/furry/Desktop/ARES_simulation_master/src/simulation_bringup'
+[1.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_teleotwistkeyboard', 'pythonpath_develop')
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard/share/new_teleotwistkeyboard/hook/pythonpath_develop.ps1'
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard' returned '0': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard/build --no-deps symlink_data
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard/share/new_teleotwistkeyboard/hook/pythonpath_develop.dsv'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard/share/new_teleotwistkeyboard/hook/pythonpath_develop.sh'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard' for CMake module files
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard' for CMake config files
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/lib'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/bin'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/lib/pkgconfig/new_teleotwistkeyboard.pc'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/lib/python3.10/site-packages'
+[1.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_teleotwistkeyboard', 'pythonpath')
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/hook/pythonpath.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/hook/pythonpath.dsv'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/hook/pythonpath.sh'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/bin'
+[1.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_teleotwistkeyboard)
+[1.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/package.ps1'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/package.dsv'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/package.sh'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/package.bash'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/new_teleotwistkeyboard/package.zsh'
+[1.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard/share/colcon-core/packages/new_teleotwistkeyboard)
+[1.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser', 'pythonpath_develop')
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/laser/share/laser/hook/pythonpath_develop.ps1'
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/laser' returned '0': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/laser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/laser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/laser/build --no-deps symlink_data
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/build/laser/share/laser/hook/pythonpath_develop.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/laser/share/laser/hook/pythonpath_develop.sh'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/laser' for CMake module files
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/laser' for CMake config files
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/laser/lib'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/laser/bin'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/laser/lib/pkgconfig/laser.pc'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/laser/lib/python3.10/site-packages'
+[1.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser', 'pythonpath')
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/hook/pythonpath.ps1'
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/hook/pythonpath.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/hook/pythonpath.sh'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/laser/bin'
+[1.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser)
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/package.ps1'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/package.dsv'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/package.sh'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/package.bash'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/laser/share/laser/package.zsh'
+[1.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/laser/share/colcon-core/packages/laser)
+[1.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualizer', 'pythonpath_develop')
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/visualizer/share/visualizer/hook/pythonpath_develop.ps1'
+[1.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/simulation_bringup': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/simulation_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup
+[1.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/visualizer' returned '0': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/visualizer/build --no-deps symlink_data
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/build/visualizer/share/visualizer/hook/pythonpath_develop.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/visualizer/share/visualizer/hook/pythonpath_develop.sh'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/visualizer' for CMake module files
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/visualizer' for CMake config files
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/visualizer/lib'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/visualizer/bin'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/visualizer/lib/pkgconfig/visualizer.pc'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/visualizer/lib/python3.10/site-packages'
+[1.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualizer', 'pythonpath')
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/hook/pythonpath.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/hook/pythonpath.dsv'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/hook/pythonpath.sh'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/visualizer/bin'
+[1.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualizer)
+[1.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/package.ps1'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/package.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/package.sh'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/package.bash'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/visualizer/package.zsh'
+[1.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/visualizer/share/colcon-core/packages/visualizer)
+[1.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/ares_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/ares_comm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/ares_comm
+[1.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/ares_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/ares_comm -- -j24 -l24
+[1.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_mpc_controller', 'pythonpath_develop')
+[1.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/share/omni_mpc_controller/hook/pythonpath_develop.ps1'
+[1.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller' returned '0': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/build --no-deps symlink_data
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/share/omni_mpc_controller/hook/pythonpath_develop.dsv'
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/share/omni_mpc_controller/hook/pythonpath_develop.sh'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller' for CMake module files
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller' for CMake config files
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/lib'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/bin'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/lib/pkgconfig/omni_mpc_controller.pc'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/lib/python3.10/site-packages'
+[1.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_mpc_controller', 'pythonpath')
+[1.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/hook/pythonpath.ps1'
+[1.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/hook/pythonpath.dsv'
+[1.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/hook/pythonpath.sh'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/bin'
+[1.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_mpc_controller)
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/package.ps1'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/package.dsv'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/package.sh'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/package.bash'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller/package.zsh'
+[1.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/colcon-core/packages/omni_mpc_controller)
+[2.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/simulation_bringup' returned '0': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/simulation_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup
+[2.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/simulation_bringup': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/simulation_bringup -- -j24 -l24
+[2.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/simulation_bringup' returned '0': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/simulation_bringup -- -j24 -l24
+[2.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/simulation_bringup': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/simulation_bringup
+[2.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_bringup)
+[2.262s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup' for CMake module files
+[2.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/simulation_bringup' returned '0': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/simulation_bringup
+[2.262s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup' for CMake config files
+[2.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_bringup', 'cmake_prefix_path')
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/hook/cmake_prefix_path.ps1'
+[2.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/hook/cmake_prefix_path.dsv'
+[2.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/hook/cmake_prefix_path.sh'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/bin'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/lib/pkgconfig/simulation_bringup.pc'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/lib/python3.10/site-packages'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/bin'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.ps1'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.dsv'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.sh'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.bash'
+[2.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.zsh'
+[2.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/colcon-core/packages/simulation_bringup)
+[2.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_bringup)
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup' for CMake module files
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup' for CMake config files
+[2.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_bringup', 'cmake_prefix_path')
+[2.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/hook/cmake_prefix_path.ps1'
+[2.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/hook/cmake_prefix_path.dsv'
+[2.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/hook/cmake_prefix_path.sh'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/bin'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/lib/pkgconfig/simulation_bringup.pc'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/lib/python3.10/site-packages'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/bin'
+[2.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.ps1'
+[2.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.dsv'
+[2.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.sh'
+[2.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.bash'
+[2.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/simulation_bringup/package.zsh'
+[2.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/simulation_bringup/share/colcon-core/packages/simulation_bringup)
+[7.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/myrobot_controller -- -j24 -l24
+[7.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/myrobot_controller
+[7.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myrobot_controller)
+[7.862s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller' for CMake module files
+[7.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/myrobot_controller
+[7.863s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller' for CMake config files
+[7.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('myrobot_controller', 'cmake_prefix_path')
+[7.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/hook/cmake_prefix_path.ps1'
+[7.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/hook/cmake_prefix_path.dsv'
+[7.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/hook/cmake_prefix_path.sh'
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/lib'
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/bin'
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/lib/pkgconfig/myrobot_controller.pc'
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/lib/python3.10/site-packages'
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/bin'
+[7.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.ps1'
+[7.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.dsv'
+[7.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.sh'
+[7.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.bash'
+[7.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.zsh'
+[7.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/colcon-core/packages/myrobot_controller)
+[7.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myrobot_controller)
+[7.866s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller' for CMake module files
+[7.866s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller' for CMake config files
+[7.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('myrobot_controller', 'cmake_prefix_path')
+[7.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/hook/cmake_prefix_path.ps1'
+[7.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/hook/cmake_prefix_path.dsv'
+[7.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/hook/cmake_prefix_path.sh'
+[7.867s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/lib'
+[7.867s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/bin'
+[7.867s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/lib/pkgconfig/myrobot_controller.pc'
+[7.867s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/lib/python3.10/site-packages'
+[7.867s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/bin'
+[7.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.ps1'
+[7.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.dsv'
+[7.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.sh'
+[7.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.bash'
+[7.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/myrobot_controller/package.zsh'
+[7.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/share/colcon-core/packages/myrobot_controller)
+[8.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/ares_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/ares_comm -- -j24 -l24
+[8.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/ares_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/ares_comm
+[10.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_comm)
+[10.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/ares_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/ares_comm
+[10.032s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm' for CMake module files
+[10.032s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm' for CMake config files
+[10.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_comm', 'cmake_prefix_path')
+[10.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/cmake_prefix_path.ps1'
+[10.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/cmake_prefix_path.dsv'
+[10.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/cmake_prefix_path.sh'
+[10.033s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib'
+[10.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_comm', 'ld_library_path_lib')
+[10.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/ld_library_path_lib.ps1'
+[10.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/ld_library_path_lib.dsv'
+[10.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/ld_library_path_lib.sh'
+[10.034s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/bin'
+[10.034s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/pkgconfig/ares_comm.pc'
+[10.034s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/python3.10/site-packages'
+[10.035s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/bin'
+[10.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.ps1'
+[10.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.dsv'
+[10.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.sh'
+[10.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.bash'
+[10.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.zsh'
+[10.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/colcon-core/packages/ares_comm)
+[10.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_comm)
+[10.037s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm' for CMake module files
+[10.037s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm' for CMake config files
+[10.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_comm', 'cmake_prefix_path')
+[10.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/cmake_prefix_path.ps1'
+[10.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/cmake_prefix_path.dsv'
+[10.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/cmake_prefix_path.sh'
+[10.039s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib'
+[10.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_comm', 'ld_library_path_lib')
+[10.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/ld_library_path_lib.ps1'
+[10.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/ld_library_path_lib.dsv'
+[10.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/hook/ld_library_path_lib.sh'
+[10.040s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/bin'
+[10.040s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/pkgconfig/ares_comm.pc'
+[10.040s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/python3.10/site-packages'
+[10.041s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/bin'
+[10.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.ps1'
+[10.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.dsv'
+[10.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.sh'
+[10.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.bash'
+[10.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/ares_comm/package.zsh'
+[10.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/ares_comm/share/colcon-core/packages/ares_comm)
+[10.043s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/furry/Desktop/ARES_simulation_master/src/test_serial' with build type 'ament_cmake'
+[10.043s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/furry/Desktop/ARES_simulation_master/src/test_serial'
+[10.043s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.043s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/test_serial': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble LD_LIBRARY_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/test_serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/test_serial
+[11.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/test_serial' returned '0': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble LD_LIBRARY_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/test_serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/test_serial
+[11.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/test_serial': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble LD_LIBRARY_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/test_serial -- -j24 -l24
+[13.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/test_serial' returned '0': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble LD_LIBRARY_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/test_serial -- -j24 -l24
+[13.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/test_serial': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble LD_LIBRARY_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/test_serial
+[13.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_serial)
+[13.321s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial' for CMake module files
+[13.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/test_serial' returned '0': AMENT_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm:/home/furry/Desktop/dog/install/myrobot_controller:/home/furry/Desktop/dog/install/my_robot_bringup:/home/furry/Desktop/dog/install/my_robot_description:/home/furry/Desktop/dog/install/laser_position:/home/furry/Desktop/dog/install/laser:/opt/ros/humble LD_LIBRARY_PATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/install/ares_comm/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/test_serial
+[13.323s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial' for CMake config files
+[13.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_serial', 'cmake_prefix_path')
+[13.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/hook/cmake_prefix_path.ps1'
+[13.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/hook/cmake_prefix_path.dsv'
+[13.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/hook/cmake_prefix_path.sh'
+[13.326s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/lib'
+[13.326s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/bin'
+[13.326s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/lib/pkgconfig/test_serial.pc'
+[13.326s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/lib/python3.10/site-packages'
+[13.326s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/bin'
+[13.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.ps1'
+[13.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.dsv'
+[13.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.sh'
+[13.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.bash'
+[13.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.zsh'
+[13.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/colcon-core/packages/test_serial)
+[13.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_serial)
+[13.330s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial' for CMake module files
+[13.331s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial' for CMake config files
+[13.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_serial', 'cmake_prefix_path')
+[13.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/hook/cmake_prefix_path.ps1'
+[13.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/hook/cmake_prefix_path.dsv'
+[13.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/hook/cmake_prefix_path.sh'
+[13.333s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/lib'
+[13.333s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/bin'
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/lib/pkgconfig/test_serial.pc'
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/lib/python3.10/site-packages'
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/furry/Desktop/ARES_simulation_master/install/test_serial/bin'
+[13.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.ps1'
+[13.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.dsv'
+[13.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.sh'
+[13.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.bash'
+[13.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/test_serial/package.zsh'
+[13.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/furry/Desktop/ARES_simulation_master/install/test_serial/share/colcon-core/packages/test_serial)
+[13.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.337s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.337s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.337s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.342s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.342s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.342s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.355s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.355s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/furry/Desktop/ARES_simulation_master/install/local_setup.ps1'
+[13.356s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/furry/Desktop/ARES_simulation_master/install/_local_setup_util_ps1.py'
+[13.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/furry/Desktop/ARES_simulation_master/install/setup.ps1'
+[13.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/furry/Desktop/ARES_simulation_master/install/local_setup.sh'
+[13.358s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/furry/Desktop/ARES_simulation_master/install/_local_setup_util_sh.py'
+[13.358s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/furry/Desktop/ARES_simulation_master/install/setup.sh'
+[13.359s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/furry/Desktop/ARES_simulation_master/install/local_setup.bash'
+[13.359s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/furry/Desktop/ARES_simulation_master/install/setup.bash'
+[13.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/furry/Desktop/ARES_simulation_master/install/local_setup.zsh'
+[13.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/furry/Desktop/ARES_simulation_master/install/setup.zsh'

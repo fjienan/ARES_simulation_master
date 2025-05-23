@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_GENERATOR_C_BUILDING_DLL_ares_comm -DROS_PACKAGE_NAME=\"ares_comm\"
 
-C_INCLUDES = -I/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_generator_c -I/home/fideow/ROBOCON25_simulation-master/src/ares_comm/include -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_generator_c -I/home/furry/Desktop/ARES_simulation_master/src/ares_comm/include -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
 C_FLAGS = -fPIC -Wall -std=gnu11
 

@@ -1,4 +1,0 @@
-Invoking command in '/home/fideow/ROBOCON25_simulation-master/build/ares_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fideow/ROBOCON25_simulation-master/build/ares_comm -- -j8 -l8
-Invoked command in '/home/fideow/ROBOCON25_simulation-master/build/ares_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fideow/ROBOCON25_simulation-master/build/ares_comm -- -j8 -l8
-Invoking command in '/home/fideow/ROBOCON25_simulation-master/build/ares_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fideow/ROBOCON25_simulation-master/build/ares_comm
-Invoked command in '/home/fideow/ROBOCON25_simulation-master/build/ares_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fideow/ROBOCON25_simulation-master/build/ares_comm

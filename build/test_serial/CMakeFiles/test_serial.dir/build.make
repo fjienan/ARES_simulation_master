@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fideow/ROBOCON25_simulation-master/src/test_serial
+CMAKE_SOURCE_DIR = /home/furry/Desktop/ARES_simulation_master/src/test_serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fideow/ROBOCON25_simulation-master/build/test_serial
+CMAKE_BINARY_DIR = /home/furry/Desktop/ARES_simulation_master/build/test_serial
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_serial.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/test_serial.dir/progress.make
 include CMakeFiles/test_serial.dir/flags.make
 
 CMakeFiles/test_serial.dir/src/test_serial.cpp.o: CMakeFiles/test_serial.dir/flags.make
-CMakeFiles/test_serial.dir/src/test_serial.cpp.o: /home/fideow/ROBOCON25_simulation-master/src/test_serial/src/test_serial.cpp
+CMakeFiles/test_serial.dir/src/test_serial.cpp.o: /home/furry/Desktop/ARES_simulation_master/src/test_serial/src/test_serial.cpp
 CMakeFiles/test_serial.dir/src/test_serial.cpp.o: CMakeFiles/test_serial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fideow/ROBOCON25_simulation-master/build/test_serial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_serial.dir/src/test_serial.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_serial.dir/src/test_serial.cpp.o -MF CMakeFiles/test_serial.dir/src/test_serial.cpp.o.d -o CMakeFiles/test_serial.dir/src/test_serial.cpp.o -c /home/fideow/ROBOCON25_simulation-master/src/test_serial/src/test_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/furry/Desktop/ARES_simulation_master/build/test_serial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_serial.dir/src/test_serial.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_serial.dir/src/test_serial.cpp.o -MF CMakeFiles/test_serial.dir/src/test_serial.cpp.o.d -o CMakeFiles/test_serial.dir/src/test_serial.cpp.o -c /home/furry/Desktop/ARES_simulation_master/src/test_serial/src/test_serial.cpp
 
 CMakeFiles/test_serial.dir/src/test_serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_serial.dir/src/test_serial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fideow/ROBOCON25_simulation-master/src/test_serial/src/test_serial.cpp > CMakeFiles/test_serial.dir/src/test_serial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/furry/Desktop/ARES_simulation_master/src/test_serial/src/test_serial.cpp > CMakeFiles/test_serial.dir/src/test_serial.cpp.i
 
 CMakeFiles/test_serial.dir/src/test_serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_serial.dir/src/test_serial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fideow/ROBOCON25_simulation-master/src/test_serial/src/test_serial.cpp -o CMakeFiles/test_serial.dir/src/test_serial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/furry/Desktop/ARES_simulation_master/src/test_serial/src/test_serial.cpp -o CMakeFiles/test_serial.dir/src/test_serial.cpp.s
 
 # Object files for target test_serial
 test_serial_OBJECTS = \
@@ -802,13 +802,13 @@ test_serial: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 test_serial: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 test_serial: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 test_serial: /opt/ros/humble/lib/libtracetools.so
-test_serial: /home/fideow/ROBOCON25_simulation-master/install/ares_comm/lib/libares_comm__rosidl_typesupport_fastrtps_c.so
-test_serial: /home/fideow/ROBOCON25_simulation-master/install/ares_comm/lib/libares_comm__rosidl_typesupport_introspection_c.so
-test_serial: /home/fideow/ROBOCON25_simulation-master/install/ares_comm/lib/libares_comm__rosidl_typesupport_fastrtps_cpp.so
-test_serial: /home/fideow/ROBOCON25_simulation-master/install/ares_comm/lib/libares_comm__rosidl_typesupport_introspection_cpp.so
-test_serial: /home/fideow/ROBOCON25_simulation-master/install/ares_comm/lib/libares_comm__rosidl_typesupport_cpp.so
-test_serial: /home/fideow/ROBOCON25_simulation-master/install/ares_comm/lib/libares_comm__rosidl_generator_py.so
-test_serial: /home/fideow/ROBOCON25_simulation-master/install/ares_comm/lib/libares_comm_lib.so
+test_serial: /home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/libares_comm__rosidl_typesupport_fastrtps_c.so
+test_serial: /home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/libares_comm__rosidl_typesupport_introspection_c.so
+test_serial: /home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/libares_comm__rosidl_typesupport_fastrtps_cpp.so
+test_serial: /home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/libares_comm__rosidl_typesupport_introspection_cpp.so
+test_serial: /home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/libares_comm__rosidl_typesupport_cpp.so
+test_serial: /home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/libares_comm__rosidl_generator_py.so
+test_serial: /home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/libares_comm_lib.so
 test_serial: /opt/ros/humble/lib/librclcpp.so
 test_serial: /opt/ros/humble/lib/liblibstatistics_collector.so
 test_serial: /opt/ros/humble/lib/librcl.so
@@ -882,14 +882,14 @@ test_serial: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 test_serial: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 test_serial: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 test_serial: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-test_serial: /home/fideow/ROBOCON25_simulation-master/install/ares_comm/lib/libares_comm__rosidl_typesupport_c.so
+test_serial: /home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/libares_comm__rosidl_typesupport_c.so
 test_serial: /opt/ros/humble/lib/librosidl_typesupport_c.so
 test_serial: /opt/ros/humble/lib/librcpputils.so
-test_serial: /home/fideow/ROBOCON25_simulation-master/install/ares_comm/lib/libares_comm__rosidl_generator_c.so
+test_serial: /home/furry/Desktop/ARES_simulation_master/install/ares_comm/lib/libares_comm__rosidl_generator_c.so
 test_serial: /opt/ros/humble/lib/librosidl_runtime_c.so
 test_serial: /opt/ros/humble/lib/librcutils.so
 test_serial: CMakeFiles/test_serial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fideow/ROBOCON25_simulation-master/build/test_serial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_serial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/furry/Desktop/ARES_simulation_master/build/test_serial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_serial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_serial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -901,6 +901,6 @@ CMakeFiles/test_serial.dir/clean:
 .PHONY : CMakeFiles/test_serial.dir/clean
 
 CMakeFiles/test_serial.dir/depend:
-	cd /home/fideow/ROBOCON25_simulation-master/build/test_serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fideow/ROBOCON25_simulation-master/src/test_serial /home/fideow/ROBOCON25_simulation-master/src/test_serial /home/fideow/ROBOCON25_simulation-master/build/test_serial /home/fideow/ROBOCON25_simulation-master/build/test_serial /home/fideow/ROBOCON25_simulation-master/build/test_serial/CMakeFiles/test_serial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/furry/Desktop/ARES_simulation_master/build/test_serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/furry/Desktop/ARES_simulation_master/src/test_serial /home/furry/Desktop/ARES_simulation_master/src/test_serial /home/furry/Desktop/ARES_simulation_master/build/test_serial /home/furry/Desktop/ARES_simulation_master/build/test_serial /home/furry/Desktop/ARES_simulation_master/build/test_serial/CMakeFiles/test_serial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_serial.dir/depend
 

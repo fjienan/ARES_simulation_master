@@ -1,1 +1,1 @@
-/home/fideow/ROBOCON25_simulation-master/build/my_robot_description/ament_cmake_environment_hooks/local_setup.bash
+/home/furry/Desktop/ARES_simulation_master/build/my_robot_description/ament_cmake_environment_hooks/local_setup.bash

@@ -1,11 +1,11 @@
 {
   "package_name": "ares_comm",
-  "output_dir": "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_typesupport_fastrtps_c/ares_comm",
+  "output_dir": "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_typesupport_fastrtps_c/ares_comm",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm:msg/Data.idl",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm:msg/Error.idl",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm:srv/Execute.idl"
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm:msg/Data.idl",
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm:msg/Error.idl",
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm:srv/Execute.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
@@ -16,8 +16,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm/msg/Data.idl",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm/msg/Error.idl",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm/srv/Execute.idl"
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm/msg/Data.idl",
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm/msg/Error.idl",
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm/srv/Execute.idl"
   ]
 }

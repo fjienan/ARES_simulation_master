@@ -1,7 +1,7 @@
 CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o: \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/serial_interface.cpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/serial_interface.cpp \
  /usr/include/stdc-predef.h \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/serial_interface.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/serial_interface.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -152,7 +152,7 @@ CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/protocol_parser.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/protocol_parser.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
@@ -165,7 +165,7 @@ CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/crc.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/crc.hpp \
  /usr/include/c++/11/cstddef /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \

@@ -1,11 +1,11 @@
 {
   "package_name": "ares_comm",
-  "output_dir": "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_generator_py/ares_comm",
+  "output_dir": "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_generator_py/ares_comm",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm:msg/Data.idl",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm:msg/Error.idl",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm:srv/Execute.idl"
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm:msg/Data.idl",
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm:msg/Error.idl",
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm:srv/Execute.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -21,8 +21,8 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm/msg/Data.idl",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm/msg/Error.idl",
-    "/home/fideow/ROBOCON25_simulation-master/build/ares_comm/rosidl_adapter/ares_comm/srv/Execute.idl"
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm/msg/Data.idl",
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm/msg/Error.idl",
+    "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/rosidl_adapter/ares_comm/srv/Execute.idl"
   ]
 }

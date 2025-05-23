@@ -1,8 +1,8 @@
-# Install script for directory: /home/fideow/ROBOCON25_simulation-master/build/ares_comm/ares_comm__py
+# Install script for directory: /home/furry/Desktop/ARES_simulation_master/build/ares_comm/ares_comm__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/fideow/ROBOCON25_simulation-master/install/ares_comm")
+  set(CMAKE_INSTALL_PREFIX "/home/furry/Desktop/ARES_simulation_master/install/ares_comm")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

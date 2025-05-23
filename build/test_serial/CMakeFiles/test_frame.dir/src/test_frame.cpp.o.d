@@ -1,7 +1,7 @@
 CMakeFiles/test_frame.dir/src/test_frame.cpp.o: \
- /home/fideow/ROBOCON25_simulation-master/src/test_serial/src/test_frame.cpp \
+ /home/furry/Desktop/ARES_simulation_master/src/test_serial/src/test_frame.cpp \
  /usr/include/stdc-predef.h \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/protocol_parser.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/protocol_parser.hpp \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -155,9 +155,9 @@ CMakeFiles/test_frame.dir/src/test_frame.cpp.o: \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/crc.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/crc.hpp \
  /usr/include/c++/11/cstddef \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/serial_interface.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/serial_interface.hpp \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \

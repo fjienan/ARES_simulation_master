@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/crc.cpp" "CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o" "gcc" "CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o.d"
-  "/home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/protocol_parser.cpp" "CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o" "gcc" "CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o.d"
-  "/home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/serial_interface.cpp" "CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o" "gcc" "CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o.d"
+  "/home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/crc.cpp" "CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o" "gcc" "CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o.d"
+  "/home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/protocol_parser.cpp" "CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o" "gcc" "CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o.d"
+  "/home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/serial_interface.cpp" "CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o" "gcc" "CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o.d"
   )
 
 # Targets to which this target links.

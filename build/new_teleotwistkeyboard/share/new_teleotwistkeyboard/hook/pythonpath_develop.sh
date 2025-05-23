@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/fideow/ROBOCON25_simulation-master/build/new_teleotwistkeyboard"
+_colcon_prepend_unique_value PYTHONPATH "/home/furry/Desktop/ARES_simulation_master/build/new_teleotwistkeyboard"

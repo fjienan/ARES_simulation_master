@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fideow/ROBOCON25_simulation-master/src/test_serial
+CMAKE_SOURCE_DIR = /home/furry/Desktop/ARES_simulation_master/src/test_serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fideow/ROBOCON25_simulation-master/build/test_serial
+CMAKE_BINARY_DIR = /home/furry/Desktop/ARES_simulation_master/build/test_serial
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/fideow/ROBOCON25_simulation-master/build/test_serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fideow/ROBOCON25_simulation-master/src/test_serial /home/fideow/ROBOCON25_simulation-master/src/test_serial /home/fideow/ROBOCON25_simulation-master/build/test_serial /home/fideow/ROBOCON25_simulation-master/build/test_serial /home/fideow/ROBOCON25_simulation-master/build/test_serial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/furry/Desktop/ARES_simulation_master/build/test_serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/furry/Desktop/ARES_simulation_master/src/test_serial /home/furry/Desktop/ARES_simulation_master/src/test_serial /home/furry/Desktop/ARES_simulation_master/build/test_serial /home/furry/Desktop/ARES_simulation_master/build/test_serial /home/furry/Desktop/ARES_simulation_master/build/test_serial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

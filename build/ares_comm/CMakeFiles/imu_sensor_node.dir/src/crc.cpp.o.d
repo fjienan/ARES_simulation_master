@@ -1,7 +1,7 @@
 CMakeFiles/imu_sensor_node.dir/src/crc.cpp.o: \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/crc.cpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/crc.cpp \
  /usr/include/stdc-predef.h \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/crc.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/crc.hpp \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

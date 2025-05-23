@@ -1,7 +1,7 @@
 CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o: \
- /home/fideow/ROBOCON25_simulation-master/src/myrobot_controller/src/simple_controller.cpp \
+ /home/furry/Desktop/ARES_simulation_master/src/myrobot_controller/src/simple_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/fideow/ROBOCON25_simulation-master/src/myrobot_controller/include/myrobot_controller/simple_controller.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/myrobot_controller/include/myrobot_controller/simple_controller.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

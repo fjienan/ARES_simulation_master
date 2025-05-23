@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/fideow/ROBOCON25_simulation-master/install/myrobot_controller/${destination}")
+      set(destination "/home/furry/Desktop/ARES_simulation_master/install/myrobot_controller/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,68 +310,68 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/myrobot_controller/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/myrobot_controller/environment")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/myrobot_controller/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/myrobot_controller/environment")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/myrobot_controller/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/myrobot_controller/environment")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/myrobot_controller/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/myrobot_controller/environment")
 
-# install(DIRECTORY "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_python/myrobot_controller/myrobot_controller.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" DIRECTORY "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_python/myrobot_controller/myrobot_controller.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info")
+# install(DIRECTORY "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_python/myrobot_controller/myrobot_controller.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" DIRECTORY "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_python/myrobot_controller/myrobot_controller.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller/myrobot_controller/" "DESTINATION" "local/lib/python3.10/dist-packages/myrobot_controller" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" DIRECTORY "/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller/myrobot_controller/" "DESTINATION" "local/lib/python3.10/dist-packages/myrobot_controller" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller/myrobot_controller/" "DESTINATION" "local/lib/python3.10/dist-packages/myrobot_controller" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" DIRECTORY "/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller/myrobot_controller/" "DESTINATION" "local/lib/python3.10/dist-packages/myrobot_controller" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install(DIRECTORY "include" "DESTINATION" "include")
-ament_cmake_symlink_install_directory("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" DIRECTORY "include" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" DIRECTORY "include" "DESTINATION" "include")
 
 # install("TARGETS" "simple_controller" "DESTINATION" "lib/myrobot_controller")
-include("/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/myrobot_controller")
-ament_cmake_symlink_install_directory("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" DIRECTORY "config" "launch" "DESTINATION" "share/myrobot_controller")
+ament_cmake_symlink_install_directory("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" DIRECTORY "config" "launch" "DESTINATION" "share/myrobot_controller")
 
 # install(PROGRAMS "myrobot_controller/simple_controller.py" "DESTINATION" "lib/myrobot_controller")
-ament_cmake_symlink_install_programs("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" PROGRAMS "myrobot_controller/simple_controller.py" "DESTINATION" "lib/myrobot_controller")
+ament_cmake_symlink_install_programs("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" PROGRAMS "myrobot_controller/simple_controller.py" "DESTINATION" "lib/myrobot_controller")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/myrobot_controller/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/myrobot_controller/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/myrobot_controller/environment")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/myrobot_controller/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/myrobot_controller/environment")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/myrobot_controller/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/myrobot_controller/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/myrobot_controller/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/myrobot_controller/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/myrobot_controller/environment")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/myrobot_controller/environment")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/myrobot_controller/environment")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/myrobot_controller/environment")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/myrobot_controller/environment")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/myrobot_controller")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/myrobot_controller")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/myrobot_controller")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/myrobot_controller")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/myrobot_controller")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/myrobot_controller")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/myrobot_controller")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/myrobot_controller")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/myrobot_controller")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/myrobot_controller")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/myrobot_controller")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/myrobot_controller")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/myrobot_controller")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/myrobot_controller")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/myrobot_controller")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/myrobot_controller")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/myrobot_controller")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/myrobot_controller")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/myrobot_controller")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/myrobot_controller")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/packages/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/packages/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/packages/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_index/share/ament_index/resource_index/packages/myrobot_controller" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_core/myrobot_controllerConfig.cmake" "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_core/myrobot_controllerConfig-version.cmake" "DESTINATION" "share/myrobot_controller/cmake")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_core/myrobot_controllerConfig.cmake" "/home/fideow/ROBOCON25_simulation-master/build/myrobot_controller/ament_cmake_core/myrobot_controllerConfig-version.cmake" "DESTINATION" "share/myrobot_controller/cmake")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_core/myrobot_controllerConfig.cmake" "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_core/myrobot_controllerConfig-version.cmake" "DESTINATION" "share/myrobot_controller/cmake")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_core/myrobot_controllerConfig.cmake" "/home/furry/Desktop/ARES_simulation_master/build/myrobot_controller/ament_cmake_core/myrobot_controllerConfig-version.cmake" "DESTINATION" "share/myrobot_controller/cmake")
 
-# install(FILES "/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller/package.xml" "DESTINATION" "share/myrobot_controller")
-ament_cmake_symlink_install_files("/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller" FILES "/home/fideow/ROBOCON25_simulation-master/src/myrobot_controller/package.xml" "DESTINATION" "share/myrobot_controller")
+# install(FILES "/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller/package.xml" "DESTINATION" "share/myrobot_controller")
+ament_cmake_symlink_install_files("/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller" FILES "/home/furry/Desktop/ARES_simulation_master/src/myrobot_controller/package.xml" "DESTINATION" "share/myrobot_controller")

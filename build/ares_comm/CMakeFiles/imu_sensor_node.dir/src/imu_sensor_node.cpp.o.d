@@ -1,5 +1,5 @@
 CMakeFiles/imu_sensor_node.dir/src/imu_sensor_node.cpp.o: \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/imu_sensor_node.cpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/imu_sensor_node.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -617,9 +617,9 @@ CMakeFiles/imu_sensor_node.dir/src/imu_sensor_node.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/serial_interface.hpp \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/protocol_parser.hpp \
- /home/fideow/ROBOCON25_simulation-master/src/ares_comm/include/ares_comm/crc.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/serial_interface.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/protocol_parser.hpp \
+ /home/furry/Desktop/ARES_simulation_master/src/ares_comm/include/ares_comm/crc.hpp \
  /usr/include/c++/11/cstddef \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \

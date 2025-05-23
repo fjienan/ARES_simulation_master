@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fideow/ROBOCON25_simulation-master/src/ares_comm
+CMAKE_SOURCE_DIR = /home/furry/Desktop/ARES_simulation_master/src/ares_comm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fideow/ROBOCON25_simulation-master/build/ares_comm
+CMAKE_BINARY_DIR = /home/furry/Desktop/ARES_simulation_master/build/ares_comm
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ares_comm_lib.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/ares_comm_lib.dir/progress.make
 include CMakeFiles/ares_comm_lib.dir/flags.make
 
 CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o: CMakeFiles/ares_comm_lib.dir/flags.make
-CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o: /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/crc.cpp
+CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o: /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/crc.cpp
 CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o: CMakeFiles/ares_comm_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fideow/ROBOCON25_simulation-master/build/ares_comm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o -MF CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o.d -o CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o -c /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/furry/Desktop/ARES_simulation_master/build/ares_comm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o -MF CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o.d -o CMakeFiles/ares_comm_lib.dir/src/crc.cpp.o -c /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/crc.cpp
 
 CMakeFiles/ares_comm_lib.dir/src/crc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ares_comm_lib.dir/src/crc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/crc.cpp > CMakeFiles/ares_comm_lib.dir/src/crc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/crc.cpp > CMakeFiles/ares_comm_lib.dir/src/crc.cpp.i
 
 CMakeFiles/ares_comm_lib.dir/src/crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ares_comm_lib.dir/src/crc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/crc.cpp -o CMakeFiles/ares_comm_lib.dir/src/crc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/crc.cpp -o CMakeFiles/ares_comm_lib.dir/src/crc.cpp.s
 
 CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o: CMakeFiles/ares_comm_lib.dir/flags.make
-CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o: /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/protocol_parser.cpp
+CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o: /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/protocol_parser.cpp
 CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o: CMakeFiles/ares_comm_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fideow/ROBOCON25_simulation-master/build/ares_comm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o -MF CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o.d -o CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o -c /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/protocol_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/furry/Desktop/ARES_simulation_master/build/ares_comm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o -MF CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o.d -o CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.o -c /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/protocol_parser.cpp
 
 CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/protocol_parser.cpp > CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/protocol_parser.cpp > CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.i
 
 CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/protocol_parser.cpp -o CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/protocol_parser.cpp -o CMakeFiles/ares_comm_lib.dir/src/protocol_parser.cpp.s
 
 CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o: CMakeFiles/ares_comm_lib.dir/flags.make
-CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o: /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/serial_interface.cpp
+CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o: /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/serial_interface.cpp
 CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o: CMakeFiles/ares_comm_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fideow/ROBOCON25_simulation-master/build/ares_comm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o -MF CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o.d -o CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o -c /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/serial_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/furry/Desktop/ARES_simulation_master/build/ares_comm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o -MF CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o.d -o CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.o -c /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/serial_interface.cpp
 
 CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/serial_interface.cpp > CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/serial_interface.cpp > CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.i
 
 CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fideow/ROBOCON25_simulation-master/src/ares_comm/src/serial_interface.cpp -o CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/furry/Desktop/ARES_simulation_master/src/ares_comm/src/serial_interface.cpp -o CMakeFiles/ares_comm_lib.dir/src/serial_interface.cpp.s
 
 # Object files for target ares_comm_lib
 ares_comm_lib_OBJECTS = \
@@ -202,7 +202,7 @@ libares_comm_lib.so: /opt/ros/humble/lib/librcpputils.so
 libares_comm_lib.so: /opt/ros/humble/lib/librcutils.so
 libares_comm_lib.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libares_comm_lib.so: CMakeFiles/ares_comm_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fideow/ROBOCON25_simulation-master/build/ares_comm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libares_comm_lib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/furry/Desktop/ARES_simulation_master/build/ares_comm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libares_comm_lib.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ares_comm_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -214,6 +214,6 @@ CMakeFiles/ares_comm_lib.dir/clean:
 .PHONY : CMakeFiles/ares_comm_lib.dir/clean
 
 CMakeFiles/ares_comm_lib.dir/depend:
-	cd /home/fideow/ROBOCON25_simulation-master/build/ares_comm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fideow/ROBOCON25_simulation-master/src/ares_comm /home/fideow/ROBOCON25_simulation-master/src/ares_comm /home/fideow/ROBOCON25_simulation-master/build/ares_comm /home/fideow/ROBOCON25_simulation-master/build/ares_comm /home/fideow/ROBOCON25_simulation-master/build/ares_comm/CMakeFiles/ares_comm_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/furry/Desktop/ARES_simulation_master/build/ares_comm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/furry/Desktop/ARES_simulation_master/src/ares_comm /home/furry/Desktop/ARES_simulation_master/src/ares_comm /home/furry/Desktop/ARES_simulation_master/build/ares_comm /home/furry/Desktop/ARES_simulation_master/build/ares_comm /home/furry/Desktop/ARES_simulation_master/build/ares_comm/CMakeFiles/ares_comm_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ares_comm_lib.dir/depend
 

@@ -1,0 +1,24 @@
+[1.054s] Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/build --no-deps symlink_data
+[1.246s] running develop
+[1.331s] running egg_info
+[1.331s] creating omni_mpc_controller.egg-info
+[1.331s] writing omni_mpc_controller.egg-info/PKG-INFO
+[1.331s] writing dependency_links to omni_mpc_controller.egg-info/dependency_links.txt
+[1.331s] writing entry points to omni_mpc_controller.egg-info/entry_points.txt
+[1.331s] writing requirements to omni_mpc_controller.egg-info/requires.txt
+[1.332s] writing top-level names to omni_mpc_controller.egg-info/top_level.txt
+[1.332s] writing manifest file 'omni_mpc_controller.egg-info/SOURCES.txt'
+[1.333s] reading manifest file 'omni_mpc_controller.egg-info/SOURCES.txt'
+[1.333s] writing manifest file 'omni_mpc_controller.egg-info/SOURCES.txt'
+[1.371s] running build_ext
+[1.371s] Creating /home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/lib/python3.10/site-packages/omni-mpc-controller.egg-link (link to .)
+[1.372s] Installing omni_mpc_controller_node script to /home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/lib/omni_mpc_controller
+[1.372s] 
+[1.372s] Installed /home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller
+[1.372s] running symlink_data
+[1.372s] creating /home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/ament_index
+[1.372s] creating /home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/ament_index/resource_index
+[1.372s] creating /home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/ament_index/resource_index/packages
+[1.372s] symbolically linking /home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/resource/omni_mpc_controller -> /home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/ament_index/resource_index/packages
+[1.372s] symbolically linking /home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/package.xml -> /home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/share/omni_mpc_controller
+[1.401s] Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller' returned '0': PYTHONPATH=/home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/furry/Desktop/ARES_simulation_master/install/omni_mpc_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/furry/Desktop/ARES_simulation_master/build/omni_mpc_controller/build --no-deps symlink_data

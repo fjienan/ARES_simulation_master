@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/fideow/ROBOCON25_simulation-master/install/new_teleotwistkeyboard'
+    sys.prefix = sys.exec_prefix = '/home/furry/Desktop/ARES_simulation_master/install/new_teleotwistkeyboard'

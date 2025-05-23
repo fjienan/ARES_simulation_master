@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-26ed49698f0b2a3c0357.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "ares_comm__py",
+					"jsonFile" : "directory-ares_comm__py-43f2810120e583fcd855.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/furry/Desktop/ARES_simulation_master/build/ares_comm/ares_comm__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ares_comm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ares_comm_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ares_comm_egg-2f25234718b6772d4929.json",
+					"name" : "ament_cmake_python_build_ares_comm_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ares_comm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ares_comm-14addc4c999c6272ed82.json",
+					"name" : "ament_cmake_python_symlink_ares_comm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm-8e8a457d61347104248e.json",
+					"name" : "ares_comm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__cpp-974ed6484ace3f47c793.json",
+					"name" : "ares_comm__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ares_comm__py::@bfb79ccbd1c8c52991a2",
+					"jsonFile" : "target-ares_comm__py-9c24ea6340fadb552540.json",
+					"name" : "ares_comm__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_generator_c-c17d6ab8ad6df5479bca.json",
+					"name" : "ares_comm__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_generator_py-650e955e24b592ae61ca.json",
+					"name" : "ares_comm__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_c-74906e109d648de406aa.json",
+					"name" : "ares_comm__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_c__pyext-f75d9bb648f24f308864.json",
+					"name" : "ares_comm__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_cpp-c3c8e83d4b8479c2d6a5.json",
+					"name" : "ares_comm__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_fastrtps_c-d572d1df29c8fd5b8b15.json",
+					"name" : "ares_comm__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_fastrtps_c__pyext-e07382ec3283ebba10f4.json",
+					"name" : "ares_comm__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_fastrtps_cpp-abea0943adfaebcc5202.json",
+					"name" : "ares_comm__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_introspection_c-f9569c44d98c21c96afc.json",
+					"name" : "ares_comm__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_introspection_c__pyext-efdbe1d99ac40d1285ed.json",
+					"name" : "ares_comm__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm__rosidl_typesupport_introspection_cpp-ef5c7cb31e345a03086f.json",
+					"name" : "ares_comm__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm_lib-007d0a2ac3985d5285a0.json",
+					"name" : "ares_comm_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm_node-ac2ed61767ca90d390e3.json",
+					"name" : "ares_comm_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ares_comm_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ares_comm_uninstall-add5e4c6135074f2d6f4.json",
+					"name" : "ares_comm_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_sensor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_sensor_node-958db96e586e7df33fc7.json",
+					"name" : "imu_sensor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e822403bbca24630f905.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/furry/Desktop/ARES_simulation_master/build/ares_comm",
+		"source" : "/home/furry/Desktop/ARES_simulation_master/src/ares_comm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

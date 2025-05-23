@@ -1,0 +1,96 @@
+[0.024s] Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description
+[0.596s] -- The C compiler identification is GNU 11.4.0
+[0.596s] -- The CXX compiler identification is GNU 11.4.0
+[0.596s] -- Detecting C compiler ABI info
+[0.596s] -- Detecting C compiler ABI info - done
+[0.597s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.597s] -- Detecting C compile features
+[0.597s] -- Detecting C compile features - done
+[0.597s] -- Detecting CXX compiler ABI info
+[0.597s] -- Detecting CXX compiler ABI info - done
+[0.597s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.597s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.597s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.598s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.598s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.598s] -- Configuring done
+[0.598s] -- Generating done
+[0.598s] -- Build files have been written to: /home/furry/Desktop/ARES_simulation_master/build/my_robot_description
+[0.737s] Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake /home/furry/Desktop/ARES_simulation_master/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/furry/Desktop/ARES_simulation_master/install/my_robot_description
+[0.738s] Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/my_robot_description -- -j24 -l24
+[0.763s] Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --build /home/furry/Desktop/ARES_simulation_master/build/my_robot_description -- -j24 -l24
+[0.771s] Invoking command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/my_robot_description
+[0.778s] -- Install configuration: ""
+[0.778s] -- Execute custom install script
+[0.779s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//worlds/basketball.world
+[0.785s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//worlds/new_vision.world
+[0.794s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//worlds/robocon25.world
+[0.804s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/RoboCon25_Field/materials/scripts/robocon25_field.material
+[0.810s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/RoboCon25_Field/materials/textures/carpet.jpg
+[0.817s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/RoboCon25_Field/materials/textures/lines.png
+[0.825s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/RoboCon25_Field/model.config
+[0.834s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/RoboCon25_Field/model.sdf
+[0.842s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/basketball/basketball.sdf
+[0.849s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/basketball/model.config
+[0.857s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/basketball/model.dae
+[0.863s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop1/hoop.sdf
+[0.869s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop1/model.config
+[0.876s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop1/model.dae
+[0.883s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop1/model/BB2140.jpg
+[0.888s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop1/model/model.config
+[0.895s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop2/hoop.sdf
+[0.900s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop2/model.config
+[0.909s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop2/model.dae
+[0.918s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop2/model/BB2140.jpg
+[0.926s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoop2/model/model.config
+[0.938s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoopC/model.config
+[0.947s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/hoopC/model.dae
+[0.957s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/model.config
+[0.964s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//models/robot.model
+[0.972s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/actuator/wheel.urdf.xacro
+[0.980s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/color.xacro
+[0.989s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/common_inertia.xacro
+[0.998s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+[1.007s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf1.xacro
+[1.015s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf_bak.xacro
+[1.023s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf_bak1.xacro
+[1.032s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/myrobot_ros2_control.xacro
+[1.039s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/plugin/imu_plugin copy.xacro
+[1.045s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/plugin/imu_plugin.xacro
+[1.053s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/plugin/laser_plugin.xacro
+[1.061s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/plugin/laser_plugin_single.xacro
+[1.068s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/sensor/imu.urdf copy.xacro
+[1.076s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/sensor/imu.urdf.xacro
+[1.085s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/sensor/laser.urdf.xacro
+[1.091s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/sensor/laser_single.urdf.xacro
+[1.099s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//urdf/舵轮底盘0.csv
+[1.107s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//launch/control.launch.py
+[1.115s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[1.123s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//launch/load_world.launch.py
+[1.132s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//launch/load_world.launch.xml
+[1.141s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
+[1.148s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//meshes/base_link.STL
+[1.155s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//meshes/wheel1.STL
+[1.161s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//meshes/wheel1_1.STL
+[1.167s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//meshes/wheel2.STL
+[1.175s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//meshes/wheel2_2.STL
+[1.180s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//meshes/wheel3.STL
+[1.186s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//meshes/wheel3_3.STL
+[1.192s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description//config/joint_names_舵轮底盘0.yaml
+[1.200s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[1.205s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[1.210s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[1.219s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[1.227s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/environment/path.sh
+[1.236s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[1.244s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/local_setup.bash
+[1.254s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/local_setup.sh
+[1.260s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[1.269s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[1.277s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.dsv
+[1.286s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[1.294s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[1.304s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[1.314s] -- Symlinking: /home/furry/Desktop/ARES_simulation_master/install/my_robot_description/share/my_robot_description/package.xml
+[1.329s] Invoked command in '/home/furry/Desktop/ARES_simulation_master/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/furry/Desktop/dog/install/laser:/opt/ros/humble /usr/bin/cmake --install /home/furry/Desktop/ARES_simulation_master/build/my_robot_description

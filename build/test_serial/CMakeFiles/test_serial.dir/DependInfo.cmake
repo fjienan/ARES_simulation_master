@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fideow/ROBOCON25_simulation-master/src/test_serial/src/test_serial.cpp" "CMakeFiles/test_serial.dir/src/test_serial.cpp.o" "gcc" "CMakeFiles/test_serial.dir/src/test_serial.cpp.o.d"
+  "/home/furry/Desktop/ARES_simulation_master/src/test_serial/src/test_serial.cpp" "CMakeFiles/test_serial.dir/src/test_serial.cpp.o" "gcc" "CMakeFiles/test_serial.dir/src/test_serial.cpp.o.d"
   )
 
 # Targets to which this target links.
